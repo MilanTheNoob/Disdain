@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d949c0b6cb4901d41b6f9e52951ae126, type: 3}
+  m_Name: hoverboard
+  m_EditorClassIdentifier: 
+  icon: {fileID: 21300000, guid: 1a3ee7ce39de6334b9d5a0ebf2697769, type: 3}
+  gameObject: {fileID: 2177594286051820971, guid: 4a73b71a0429bf74db3c4eef96275d6c, type: 3}
+  ignoreGravity: 0
+  description: yo, its a hoverboard!
+  originType: 0
+  isUsableItem: 0
+  dontDrop: 0

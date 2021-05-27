@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d949c0b6cb4901d41b6f9e52951ae126, type: 3}
+  m_Name: gold-ingot
+  m_EditorClassIdentifier: 
+  icon: {fileID: 21300000, guid: 01e68497b832d9547a999da8c5dd9038, type: 3}
+  gameObject: {fileID: 4752071409593848802, guid: 649b739341558c44ba286ea73d50ddcc, type: 3}
+  ignoreGravity: 0
+  originType: 0
+  isUsableItem: 0
+  dontDrop: 0

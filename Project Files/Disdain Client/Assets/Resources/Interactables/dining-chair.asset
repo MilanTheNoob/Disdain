@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5a65161c55d14a14c932a197b2e7d131, type: 3}
+  m_Name: dining-chair
+  m_EditorClassIdentifier: 
+  icon: {fileID: 21300000, guid: 76bbe26403acbae48982b04b7f819d82, type: 3}
+  gameObject: {fileID: 1142150235287386, guid: 32611e18bb3f8f2408f04792ae9c0b08, type: 3}
+  ignoreGravity: 0
+  originType: 0
+  isUsableItem: 1
+  dontDrop: 1

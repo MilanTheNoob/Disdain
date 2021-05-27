@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d949c0b6cb4901d41b6f9e52951ae126, type: 3}
+  m_Name: bucket
+  m_EditorClassIdentifier: 
+  icon: {fileID: 21300000, guid: f22470e308acf2841b41e27ab62ceae2, type: 3}
+  gameObject: {fileID: 1644375453210114, guid: 7b2194f94c48e4e4b973ac9d61cf0a6a, type: 3}
+  ignoreGravity: 0
+  originType: 0
+  isUsableItem: 0
+  dontDrop: 0

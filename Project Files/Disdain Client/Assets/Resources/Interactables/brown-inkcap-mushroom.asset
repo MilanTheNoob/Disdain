@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d949c0b6cb4901d41b6f9e52951ae126, type: 3}
+  m_Name: brown-inkcap-mushroom
+  m_EditorClassIdentifier: 
+  icon: {fileID: 21300000, guid: 63552b991842c35489f62cbf7bdf5ba0, type: 3}
+  gameObject: {fileID: 121358, guid: f763d45e6c10c454c9e819f48f9d5571, type: 3}
+  ignoreGravity: 0
+  originType: 0
+  isUsableItem: 0
+  dontDrop: 0

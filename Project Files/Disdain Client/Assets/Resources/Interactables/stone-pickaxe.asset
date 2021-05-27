@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bd3eb3c64b9e32f4585f9380da9d4315, type: 3}
+  m_Name: stone-pickaxe
+  m_EditorClassIdentifier: 
+  icon: {fileID: 21300000, guid: 10763919716c4b044aecc2d49362b9a9, type: 3}
+  gameObject: {fileID: 1000010711812452, guid: 52bd9366f2b90164199d3cea25dbf1b0, type: 3}
+  ignoreGravity: 0
+  originType: 0
+  isUsableItem: 1
+  dontDrop: 0

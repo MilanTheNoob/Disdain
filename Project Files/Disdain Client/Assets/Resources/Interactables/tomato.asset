@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2e383c231df5e7e4e9ee141862522f8e, type: 3}
+  m_Name: tomato
+  m_EditorClassIdentifier: 
+  icon: {fileID: 21300000, guid: b3412bd1416e3594c884e289be17b7f8, type: 3}
+  gameObject: {fileID: 8350543482109744467, guid: bf119bcbf80a2724c81298d6bf94ab0a, type: 3}
+  ignoreGravity: 0
+  originType: 0
+  isUsableItem: 1
+  dontDrop: 0
+  healthChange: 0.05
+  hungerChange: 0.15

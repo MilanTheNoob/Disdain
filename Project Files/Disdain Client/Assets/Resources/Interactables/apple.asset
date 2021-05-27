@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2e383c231df5e7e4e9ee141862522f8e, type: 3}
+  m_Name: apple
+  m_EditorClassIdentifier: 
+  icon: {fileID: 21300000, guid: 41c411f35d2c05041b1747c56a216a34, type: 3}
+  gameObject: {fileID: 1846160755511594, guid: 46ab72116b317894eb03fc6529613a20, type: 3}
+  ignoreGravity: 0
+  originType: 0
+  isUsableItem: 1
+  dontDrop: 0
+  healthChange: 0.05
+  hungerChange: 0.1
