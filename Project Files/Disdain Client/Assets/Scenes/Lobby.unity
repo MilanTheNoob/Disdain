@@ -14,7 +14,7 @@ OcclusionCullingSettings:
 RenderSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 9
-  m_Fog: 1
+  m_Fog: 0
   m_FogColor: {r: 0.651466, g: 0.74729085, b: 0.85466206, a: 1}
   m_FogMode: 3
   m_FogDensity: 0.015
@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 962081136}
-  m_IndirectSpecularColor: {r: 0.43155733, g: 0.6567538, b: 0.948345, a: 1}
+  m_IndirectSpecularColor: {r: 0.4034848, g: 0.65133536, b: 0.9598629, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -180,6 +180,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -513,6 +514,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -608,6 +610,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -969,6 +972,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -1342,6 +1346,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -1458,6 +1463,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -1574,6 +1580,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -1757,6 +1764,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -2019,6 +2027,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -2179,6 +2188,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -2274,6 +2284,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -2369,6 +2380,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -2464,6 +2476,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -2577,6 +2590,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -2693,6 +2707,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -2806,6 +2821,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -2919,6 +2935,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -3076,6 +3093,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -3264,6 +3282,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -3380,6 +3399,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -3550,6 +3570,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -3677,6 +3698,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -3793,6 +3815,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -3888,6 +3911,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -4206,6 +4230,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -4322,6 +4347,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -4559,6 +4585,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -4900,6 +4927,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -5016,6 +5044,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -5605,6 +5634,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -5972,6 +6002,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -6261,6 +6292,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -6483,6 +6515,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -6578,6 +6611,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -6809,6 +6843,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -6918,6 +6953,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -7034,6 +7070,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -7283,6 +7320,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -7378,6 +7416,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -7491,6 +7530,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -7539,14 +7579,13 @@ GameObject:
   m_Component:
   - component: {fileID: 605414253}
   - component: {fileID: 605414254}
-  - component: {fileID: 605414255}
   m_Layer: 0
   m_Name: Terrain Generator
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &605414253
 Transform:
   m_ObjectHideFlags: 0
@@ -7570,28 +7609,22 @@ MonoBehaviour:
   m_GameObject: {fileID: 605414252}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5d63f87cb827c1c479725f1379cc4081, type: 3}
+  m_Script: {fileID: 11500000, guid: d5ed9d55d767f47ef80b94009415a728, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  meshSettings: {fileID: 11400000, guid: 7e5ba77964dd7de44b309927b10eca77, type: 2}
-  heightMapSettings: {fileID: 11400000, guid: 740a13ca91e454c51aeb1f625a396eca, type: 2}
-  mapMaterial: {fileID: 2100000, guid: b0872f84cf3c7441d893168677410c73, type: 2}
-  ViewDst: 70
-  viewer: {fileID: 0}
+  GenerationSettings: {fileID: 11400000, guid: 6492634d39cdffb4aa276300e5a456bf, type: 2}
+  LobbyChunks: {fileID: 11400000, guid: 4e35d0f5788dafe4a84ad4ba63683ba0, type: 2}
+  LODDst:
+  - LOD: 0
+    ViewDst: 100
+  - LOD: 1
+    ViewDst: 400
+  - LOD: 4
+    ViewDst: 1000
+  mapMaterial: {fileID: 2100000, guid: 4100bd8ce19193647a8eadff22db5258, type: 2}
   meshWorldSize: 0
   chunksVisibleInViewDst: 0
---- !u!114 &605414255
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 605414252}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 60765b39c6679414382a47b20bd4a882, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
+  ViewDst: 0
 --- !u!1 &614754932
 GameObject:
   m_ObjectHideFlags: 0
@@ -7667,6 +7700,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -8010,6 +8044,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -8106,6 +8141,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -8187,528 +8223,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 22afb50d341b1dd44a2592856be98850, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sections:
-  - name: Basic Information & Guides
-    description: The following list contains information about all the basic game
-      mechanics and how they work, many of the mechanics work together such as Inventory
-      & Crafting.
-    items:
-    - name: Inventory Basics
-      desc: Your player has 14 inventory slots, which can be filled with items found
-        in the world. You can walk up to items and pick them up when a UI Button
-        appears. If you fill up the slots you will no longer be able to pick up items,
-        and when crafting your player will drop any items from the recipe
-      sprite: {fileID: 21300000, guid: de9d98f8f28d93e6a978d536c60fe50d, type: 3}
-    - name: Crafting Mechanics
-      desc: You can craft recipes using items in your inventory, you can access the
-        crafting menu by going to the shortcut menu and clicking the crafting icon.
-        You can choose one of the recipes on the right, these are recipes that can
-        be crafted with items in your inventory.
-      sprite: {fileID: 21300000, guid: 372fa79d6d3ee0641937f28029c34039, type: 3}
-    - name: Health & Vitals
-      desc: Vitals are your player's health stats, as of this version there is a
-        hunger & health stat. Hunger decreases gradually over time and can be replenished
-        with food, health decreases when you run out of hunger. Once you run out
-        of health you are greeted with death that resets your progress.
-      sprite: {fileID: 21300000, guid: d3e366e0abc4cac4f82a38e5e7d87df9, type: 3}
-    - name: Storage Basics
-      desc: You can store items in chests and other storage containers, they store
-        20 items and work very similar to your inventory. In order to use a chest
-        you need to craft it and place it in the world.
-      sprite: {fileID: 21300000, guid: de9d98f8f28d93e6a978d536c60fe50d, type: 3}
-    - name: Inventory Basics
-      desc: Your player has 14 inventory slots, which can be filled with items found
-        in the world. You can walk up to items and pick them up when a UI Button
-        appears. If you fill up the slots you will no longer be able to pick up items,
-        and when crafting your player will drop any items from the recipe
-      sprite: {fileID: 21300000, guid: de9d98f8f28d93e6a978d536c60fe50d, type: 3}
-  - name: Crafting Recipes
-    description: Crafting allows players to make items with others, to go to the
-      Crafting Menu click on the Shortcut Button > Crafting. Click on one of the
-      recipes on the side and click Craft to make something!
-    items:
-    - name: Food Fragment Recipe
-      desc: Makes a tool fragment needed to make a ruby crystal. Can be made from
-        1 hammer, pickaxe & hammer
-      sprite: {fileID: 21300000, guid: 372fa79d6d3ee0641937f28029c34039, type: 3}
-    - name: Ore Fragment Recipe
-      desc: An ore fragment recipe, needed to make a ruby crystal. Can be crafted
-        from all the ores in the game
-      sprite: {fileID: 21300000, guid: 372fa79d6d3ee0641937f28029c34039, type: 3}
-    - name: Ruby Crystal Recipe
-      desc: The recipe needed to make the ruby crystal, a rare item that can only
-        be crafted in this version of the game. Gives a special speed & jump boost
-      sprite: {fileID: 21300000, guid: 372fa79d6d3ee0641937f28029c34039, type: 3}
-    - name: Structure Fragment Recipe
-      desc: The structure fragment recipe, can be made from 1 statue, stone wall,
-        chest and table. Needed to make a ruby crystal
-      sprite: {fileID: 21300000, guid: 372fa79d6d3ee0641937f28029c34039, type: 3}
-    - name: Tool Fragment Recipe
-      desc: Makes a tool fragment needed to make a ruby crystal. Can be made from
-        1 hammer, pickaxe & hammer
-      sprite: {fileID: 21300000, guid: 372fa79d6d3ee0641937f28029c34039, type: 3}
-    - name: Apple Pie Recipe
-      desc: Makes a very filling apple pie from basic ingredients
-      sprite: {fileID: 21300000, guid: 372fa79d6d3ee0641937f28029c34039, type: 3}
-    - name: Blueberry Pie Recipe
-      desc: Makes a very filling blueberry pie from basic ingredients
-      sprite: {fileID: 21300000, guid: 372fa79d6d3ee0641937f28029c34039, type: 3}
-    - name: Bread Recipe
-      desc: A simple recipe turning flour into bread, can be used to make more filling
-        meals such as burgers
-      sprite: {fileID: 21300000, guid: 372fa79d6d3ee0641937f28029c34039, type: 3}
-    - name: Burger Recipe
-      desc: A classic burger recipe that makes two very filling burger from simple
-        ingredients
-      sprite: {fileID: 21300000, guid: 372fa79d6d3ee0641937f28029c34039, type: 3}
-    - name: Fries Recipe
-      desc: An easy recipe that makes filling fries from potatoes
-      sprite: {fileID: 21300000, guid: 372fa79d6d3ee0641937f28029c34039, type: 3}
-    - name: Pizza Recipe
-      desc: Two very filling pizzas that can be made from simple ingredients
-      sprite: {fileID: 21300000, guid: 372fa79d6d3ee0641937f28029c34039, type: 3}
-    - name: Pizza Slices Recipe
-      desc: An easy recipe that slices pizza into pizza slices
-      sprite: {fileID: 21300000, guid: 372fa79d6d3ee0641937f28029c34039, type: 3}
-    - name: Carved Pumpkin Recipe
-      desc: A carved pumpkin recipe that carves a normal pumpkin into a carved one
-        that can be placed anywhere
-      sprite: {fileID: 21300000, guid: 372fa79d6d3ee0641937f28029c34039, type: 3}
-    - name: Iron Ingot Recipe
-      desc: A common and easy to make recipe for making iron ingots needed for many
-        basic recipes
-      sprite: {fileID: 21300000, guid: 372fa79d6d3ee0641937f28029c34039, type: 3}
-    - name: Medicine Recipe
-      desc: A simple recipe making more effective medicine from crude medicine. Makes
-        two medicine from three medicine
-      sprite: {fileID: 21300000, guid: 372fa79d6d3ee0641937f28029c34039, type: 3}
-    - name: Stone Block Recipe
-      desc: A stone block recipe needed for making bigger structure pieces such as
-        statues
-      sprite: {fileID: 21300000, guid: 372fa79d6d3ee0641937f28029c34039, type: 3}
-    - name: Stone Brick Recipe
-      desc: A simple brick recipe requiring a pickaxe to make, needed for many structures
-        & place able items
-      sprite: {fileID: 21300000, guid: 372fa79d6d3ee0641937f28029c34039, type: 3}
-    - name: Knight Statue Recipe
-      desc: Make a statue of a knight by chiselling 3 stone blocks with a pickaxe
-      sprite: {fileID: 21300000, guid: 372fa79d6d3ee0641937f28029c34039, type: 3}
-    - name: Stone Doorway
-      desc: A stone doorway that is the same recipe as a stone wall.
-      sprite: {fileID: 21300000, guid: 372fa79d6d3ee0641937f28029c34039, type: 3}
-    - name: Stone Foundation Recipe
-      desc: A simple stone foundation that requires some bricks. A foundation is
-        needed to place walls.
-      sprite: {fileID: 21300000, guid: 372fa79d6d3ee0641937f28029c34039, type: 3}
-    - name: Stone Wall With Window Recipe
-      desc: A stone wall with a primitive iron window that needs to be snapped to
-        a foundation to be placed
-      sprite: {fileID: 21300000, guid: 372fa79d6d3ee0641937f28029c34039, type: 3}
-    - name: Stone Wall With Window Recipe
-      desc: A stone wall with an iron window, can be crafted from bricks and an iron
-        ingot
-      sprite: {fileID: 21300000, guid: 372fa79d6d3ee0641937f28029c34039, type: 3}
-    - name: Wood Bench Recipe
-      desc: A wooden bench held together with iron nails, requires an axe to be built
-      sprite: {fileID: 21300000, guid: 372fa79d6d3ee0641937f28029c34039, type: 3}
-    - name: Wiood Chair Recipe
-      desc: A wooden bench held together with iron nails, requires an axe to be built
-      sprite: {fileID: 21300000, guid: 372fa79d6d3ee0641937f28029c34039, type: 3}
-    - name: Wood Chest
-      desc: A wood chest that can hold items, can be made from logs & iron with a
-        hammer tool
-      sprite: {fileID: 21300000, guid: 372fa79d6d3ee0641937f28029c34039, type: 3}
-    - name: Wooden Fence Recipe
-      desc: A wooden fence made from logs and iron. Can be placed anywhere and can't
-        be snapped to anything
-      sprite: {fileID: 21300000, guid: 372fa79d6d3ee0641937f28029c34039, type: 3}
-    - name: Wooden Forest Bench Recipe
-      desc: A wooden forest bench that is very cheap to make and can be placed any
-        for decoration
-      sprite: {fileID: 21300000, guid: 372fa79d6d3ee0641937f28029c34039, type: 3}
-    - name: Wooden Foundation Recipe
-      desc: A wooden foundation needed to place walls and a necessity for a good
-        house
-      sprite: {fileID: 21300000, guid: 372fa79d6d3ee0641937f28029c34039, type: 3}
-    - name: Wooden Guidepost Recipe
-      desc: Recipe for a wooden guidepost, only requires 1 log and iron ingot
-      sprite: {fileID: 21300000, guid: 372fa79d6d3ee0641937f28029c34039, type: 3}
-    - name: Wooden Stakes Recipe
-      desc: Makes two stakes from five logs and an iron ingot, can be placed anywhere
-        and do not snap
-      sprite: {fileID: 21300000, guid: 372fa79d6d3ee0641937f28029c34039, type: 3}
-    - name: Axe Recipe
-      desc: Makes a primitive axe using 1 stone & 1 log
-      sprite: {fileID: 21300000, guid: 372fa79d6d3ee0641937f28029c34039, type: 3}
-    - name: Birch Axe Recipe
-      desc: A birch variant of the axe recipe that uses any stone & a birch log
-      sprite: {fileID: 21300000, guid: 372fa79d6d3ee0641937f28029c34039, type: 3}
-    - name: Birch Hammer Recipe
-      desc: The birch variant of a hammer, requires 1 stone and birch log to be crafted
-      sprite: {fileID: 21300000, guid: 372fa79d6d3ee0641937f28029c34039, type: 3}
-    - name: Birch Pickaxe Recipe
-      desc: The birch variant of the pickaxe recipe, exactly the same except for
-        needing a birch log
-      sprite: {fileID: 21300000, guid: 372fa79d6d3ee0641937f28029c34039, type: 3}
-    - name: Birch Shovel Recipe
-      desc: A birch variant of the simple shovel
-      sprite: {fileID: 21300000, guid: 372fa79d6d3ee0641937f28029c34039, type: 3}
-    - name: Crude Medicine Recipe
-      desc: A simple recipe that makes medicine from mushrooms
-      sprite: {fileID: 21300000, guid: 372fa79d6d3ee0641937f28029c34039, type: 3}
-    - name: Hammer Recipe
-      desc: Makes a hammer from 1 stone & log, doesn't require any tools
-      sprite: {fileID: 21300000, guid: 372fa79d6d3ee0641937f28029c34039, type: 3}
-    - name: Pickaxe Recipe
-      desc: Makes a simple pickaxe from any normal stone & a birch log
-      sprite: {fileID: 21300000, guid: 372fa79d6d3ee0641937f28029c34039, type: 3}
-    - name: Shovel Recipe
-      desc: A simple shovel that can be made with 1 stone & log
-      sprite: {fileID: 21300000, guid: 372fa79d6d3ee0641937f28029c34039, type: 3}
-    - name: Sword Recipe
-      desc: An easy to make sword that only requires a stone and log to make
-      sprite: {fileID: 21300000, guid: 372fa79d6d3ee0641937f28029c34039, type: 3}
-  - name: Interactable Items - Tools
-    description: 
-    items:
-    - name: Axe
-      desc: An axe that can chop down trees in a swing, used as a tool in many recipes
-        for structures
-      sprite: {fileID: 21300000, guid: 60b26f2eff2d92e4c859f286b34c5ad7, type: 3}
-    - name: Hammer
-      desc: A useful tool that can be used in the world & in recipes
-      sprite: {fileID: 21300000, guid: abda2c869d55bf6498b3c32e0e459086, type: 3}
-    - name: Pickaxe
-      desc: A tool used for mining
-      sprite: {fileID: 21300000, guid: ea8ee4985c6850248a438e42bb6d5701, type: 3}
-    - name: Pitchfork
-      desc: An unused item in the game in this version
-      sprite: {fileID: 21300000, guid: 13a5daec77c4f6d459b0fac8cf769b43, type: 3}
-    - name: Shield
-      desc: A simple shield that can protect you from very little in this peaceful
-        survival game
-      sprite: {fileID: 21300000, guid: a46e9be8a75327b4889b05335e993dcc, type: 3}
-    - name: Shovel
-      desc: 'A simple tool used for little in this version '
-      sprite: {fileID: 21300000, guid: 6a158f799247fc74991b55f7512afa38, type: 3}
-    - name: Sword
-      desc: That metal stick you need to poke a chicken! Or to cut a rare steak on
-        camera and turn it into a popular meme
-      sprite: {fileID: 21300000, guid: 5d23012fa2eb5af4f84909d5bddc4d43, type: 3}
-  - name: Interactable Items - Structure Pieces
-    description: 
-    items:
-    - name: Knight Statue
-      desc: A stone statue made from stone blocks (which is made from stone bricks),
-        quite an expensive structure piece
-      sprite: {fileID: 21300000, guid: 9dfbc1dc39f397c4e9253fa8f70544f7, type: 3}
-    - name: Stone Doorway
-      desc: A simple stone doorway, needs to be snapped on a foundation to be placed
-      sprite: {fileID: 21300000, guid: 6087685bdb1c5bc459d1dafef0f138a7, type: 3}
-    - name: Stone Foundation
-      desc: A stone foundation you can place walls on, can be snapped to other foundations
-      sprite: {fileID: 21300000, guid: 5c0af40ea3db2f244bf8d9bd0092a5ce, type: 3}
-    - name: Stone Wall
-      desc: A simple stone wall, needs to be snapped on a foundation to be placed
-      sprite: {fileID: 21300000, guid: c35b9007948debb4ba2244ce07ae458a, type: 3}
-    - name: Stone Wall with Window
-      desc: A stone wall with a window, needs to be snapped to a foundation to be
-        placed
-      sprite: {fileID: 21300000, guid: 01c36185226990b439b4c54e54dd695d, type: 3}
-    - name: Wood Bench
-      desc: A wooden bench that is easy to craft and can be placed anywhere
-      sprite: {fileID: 21300000, guid: 52ac9d6d06023074a920d38a9fd56126, type: 3}
-    - name: Wood Chair
-      desc: A primitive wooden chair that can be made with logs, can be placed anywhere
-      sprite: {fileID: 21300000, guid: a2d02868464ff614790669e987e89470, type: 3}
-    - name: Wood Chest
-      desc: A wood chest that can be used to store any items you have, will be saved
-        between save sessions
-      sprite: {fileID: 21300000, guid: a96ec58918f3e134292e1a37bc3ce9d2, type: 3}
-    - name: Wood Table
-      desc: A simple piece of furniture, what more do you need to know about it?
-      sprite: {fileID: 21300000, guid: 4f8b75b9573a9d647ba0f03fe368ce31, type: 3}
-    - name: Wooden Bed
-      desc: A simple wooden bed that looks very rustic
-      sprite: {fileID: 21300000, guid: 58f2e7fe81bc2534fbe2f006b5cab677, type: 3}
-    - name: Wooden Fence
-      desc: 
-      sprite: {fileID: 21300000, guid: 88f60ddef953b74468f68afaaa1a03e0, type: 3}
-    - name: Wooden Forest Bench
-      desc: 
-      sprite: {fileID: 21300000, guid: dfb0a8c6ffbcc2544a025aeb9aba2261, type: 3}
-    - name: Wooden Foundation
-      desc: A wooden foundation used to make structures, crafted from logs
-      sprite: {fileID: 21300000, guid: b21402266eb737743ba4a0df3afdd78e, type: 3}
-    - name: Wooden Guidepost
-      desc: 
-      sprite: {fileID: 21300000, guid: 5113bce5b868cac48a4429fa9603bcdb, type: 3}
-    - name: Wooden Stakes
-      desc: Those stakes you need to feel medieval or to separate your garden from
-        an annoying neighbour's garden
-      sprite: {fileID: 21300000, guid: 6ebb0b92d92f91e46947aced4118acce, type: 3}
-  - name: Interactable Items - Containers
-    description: 
-    items:
-    - name: A Big Jar
-      desc: A large jar that can hold liquids, useful in Crafting Recipes.
-      sprite: {fileID: 21300000, guid: fac115b05ef731d42a3ddd4a72fbbd71, type: 3}
-    - name: A Medium Jar
-      desc: A medium sized jar that can hold liquids, useful in Crafting Recipes
-      sprite: {fileID: 21300000, guid: d3baad463d2e53740b6b380c9fb0be4a, type: 3}
-    - name: Bowl
-      desc: A simple bowl that can hold products of recipes & food
-      sprite: {fileID: 21300000, guid: 9a5e318d959780e4482af3d6565bead7, type: 3}
-    - name: Plate
-      desc: Its a plate! What more of a description do you need?
-      sprite: {fileID: 21300000, guid: c95043b056020ee4eaa5e5bf1f42f9a2, type: 3}
-  - name: Interactable Items - Crystals & Fragments
-    description: 
-    items:
-    - name: Food Fragment
-      desc: The tool fragment, part of the ruby crystal recipe. Can be crafted from
-        tools
-      sprite: {fileID: 21300000, guid: 40b7fd506df5f55408ef12738fbaba35, type: 3}
-    - name: Ore Fragment
-      desc: An ore fragment needed to craft the ruby crystal, can be crafted by combining
-        all the ores
-      sprite: {fileID: 21300000, guid: 79d2dbde1932aa64c81ae1133945f02e, type: 3}
-    - name: Ruby Crystal
-      desc: A rare gem that can only be made in the first version of the game, requires
-        all the crystal fragments to craft it. Provides a moderate stat boost when
-        in your inventory
-      sprite: {fileID: 21300000, guid: 9bf2bf944f59d6342856b32637742486, type: 3}
-    - name: Structure Fragment
-      desc: A Structure Fragment needed to make the ruby crystal, can be crafted
-        from common structures
-      sprite: {fileID: 21300000, guid: 1ef92a7bf6984ae4e9ca64e413733cad, type: 3}
-    - name: Tool Fragment
-      desc: The tool fragment, part of the ruby crystal recipe. Can be crafted from
-        tools
-      sprite: {fileID: 21300000, guid: 406a2db06339faa4ea9a0fd7459e75d1, type: 3}
-  - name: Interactable Items - Food
-    description: 
-    items:
-    - name: A Box of Cereal
-      desc: A box of cereal that restores health by 10% and hunger by 30%. Can be
-        found in standard structures and randomly generated
-      sprite: {fileID: 21300000, guid: 5ddca8a01c1221c4d8c52900fca362dd, type: 3}
-    - name: Apple
-      desc: A standard fruit that's very common, increases health by 5% and increases
-        hunger by 8%. Can be crafted to make more filling food
-      sprite: {fileID: 21300000, guid: 07a620bff9c5186419fbf3dca399aa1c, type: 3}
-    - name: Apple Pie
-      desc: A very filling pie made from simple ingredients that replenishes hunger
-        by 70% and health by 20%
-      sprite: {fileID: 21300000, guid: d351e5d19c7d73d4b8d506e1d5dd00d4, type: 3}
-    - name: Bacon
-      desc: A moderately filling piece of meat that restores hunger by 30% but reduces
-        hunger by 10%. Can be used for very filling meals
-      sprite: {fileID: 21300000, guid: 552f2d02f6c057b49859732bcfd3e158, type: 3}
-    - name: Banana
-      desc: A more rare fruit that is more commonly found in structures. Increases
-        health by 5% and hunger by 10% and can also be used in crafting recipes for
-        more filling food
-      sprite: {fileID: 21300000, guid: f0a8312a10fb39e419f27f766797a663, type: 3}
-    - name: Beer
-      desc: 'Beer has little use since you cant cook with it, all alcohol subtracts
-        health. Beer subtracts 10% of health '
-      sprite: {fileID: 21300000, guid: 38d81b534554de04fa4319c5f58f6f35, type: 3}
-    - name: Blueberries
-      desc: A cluster of small berries that replenish health & hunger by 5%
-      sprite: {fileID: 21300000, guid: 2647b1ca0ae3ff84cb4e1f4a068bf21e, type: 3}
-    - name: Blueberry Pie
-      desc: A very filling pie made from simple ingredients that replenishes hunger
-        by 70% and health by 20%
-      sprite: {fileID: 21300000, guid: 9aa348ef590afcf4ebf0ba75d17b60db, type: 3}
-    - name: Burger
-      desc: A fatty combo of meat & bread that restores hunger by 50% but decreases
-        health by 3%
-      sprite: {fileID: 21300000, guid: cda0edbcfd0a7f548b41304af4fa7dbe, type: 3}
-    - name: Can of Beans
-      desc: A simple source of sustenance that replenishes health by 10% and hunger
-        by 30%. Can also be used to create more filling meals
-      sprite: {fileID: 21300000, guid: c972fa1c48be8c048a99e6ab24a4dabc, type: 3}
-    - name: Carrot
-      desc: A simple & common vegetable that can be used in a variety of more filling
-        foods, restores health and hunger by 10%
-      sprite: {fileID: 21300000, guid: 384f30067043a5f4486617219a591ac8, type: 3}
-    - name: Chicken Egg
-      desc: A combination of stone bricks for bigger items such as statues
-      sprite: {fileID: 21300000, guid: efaf387d5a336924e8c32730bf5d6601, type: 3}
-    - name: Chocolate Bar
-      desc: A bar of chocolate that replenishes hunger by 20%, can be used for more
-        filling meals such as cake
-      sprite: {fileID: 21300000, guid: d9673f99ccb082c4aa5520a9e0916892, type: 3}
-    - name: Corn
-      desc: A less common vegetable that can be used in filling foods, replenishes
-        health & hunger by 10%
-      sprite: {fileID: 21300000, guid: 5d267cdace9148d46ab5e44b4033e35e, type: 3}
-    - name: Flour
-      desc: A simple bag of flour that can only be used for making foods
-      sprite: {fileID: 21300000, guid: de58aafc768408748ab7d321c484b445, type: 3}
-    - name: Fries
-      desc: A very filling meal of fries that replenishes hunger by 40% and subtracts
-        health by 10%
-      sprite: {fileID: 21300000, guid: ee7703afec0505e44964f493087d4f49, type: 3}
-    - name: Honey
-      desc: That sticky sugary stuff that those stingy fly things make
-      sprite: {fileID: 21300000, guid: 15dbb7f2e961a5f478734d8e8cad85cc, type: 3}
-    - name: Lettuce
-      desc: A simple shrub of lettuce, only restores health and hunger by 5%, can
-        be used in salads and other filling recipes
-      sprite: {fileID: 21300000, guid: cf24a34927164114787f92f111a86b09, type: 3}
-    - name: Loaf of Bread
-      desc: A simple loaf of bread that restores health by 10% and hunger by 20%
-      sprite: {fileID: 21300000, guid: cd2f7d2ae37a6714eb6e8e821a47ff08, type: 3}
-    - name: Lollipop
-      desc: A sweet lollipop that replenishes hunger by 10% and health by 5%
-      sprite: {fileID: 21300000, guid: 91cfeca27c89add4ea66007bbcf3054b, type: 3}
-    - name: Meat
-      desc: A slab of meat that can be used in very filling meals, can be eaten as
-        is, replenishes hunger by 10% and reduces health by 10%
-      sprite: {fileID: 21300000, guid: 962e32c979fd5004d863f8446f9e27df, type: 3}
-    - name: Milk
-      desc: OH YEAH! #MilkGangForLife, dani pls play my game :3
-      sprite: {fileID: 21300000, guid: 9e11077dbc76f0743af6a127d458f1b6, type: 3}
-    - name: Normal Potato
-      desc: A normal potato that cannot be eaten, can be used for filling meals such
-        as fries
-      sprite: {fileID: 21300000, guid: 55bd5b784f123884681ef8acb446b22a, type: 3}
-    - name: Pasta
-      desc: A simple combination of flour & water that can be used for recipes. Cannot
-        be eaten as is
-      sprite: {fileID: 21300000, guid: 9a10b18468774fd448363b14b8495551, type: 3}
-    - name: Pizza
-      desc: A filling pizza that restores hunger by 70% but subtracts 5% health,
-        can be easily crafted into pizza slices which is more filling
-      sprite: {fileID: 21300000, guid: 7b9d272adf6b4394e87e83997449bd87, type: 3}
-    - name: Pizza Slice
-      desc: A slice of pizza that subtracts 3% health and restores hunger buy 20%
-        when eaten
-      sprite: {fileID: 21300000, guid: 68e9b0103825cdb44b37c970ceec072f, type: 3}
-    - name: Red Chilli
-      desc: A spicy chilli that only restores health by 20%, can be used for a few
-        recipes for filling foods
-      sprite: {fileID: 21300000, guid: d5fd5c57bf7a9444798ad4a7623fbab0, type: 3}
-    - name: Red Wine
-      desc: A common alcohol commonly found in households and can be used for select
-        recipes to make a better variant that is more filling. Drank on its own subtracts
-        10% health
-      sprite: {fileID: 21300000, guid: a8fca6c74f5894f4392bbd3f9fc1a668, type: 3}
-    - name: Rice
-      desc: A simple rice box that can be used in simple recipes
-      sprite: {fileID: 21300000, guid: 920dfafc629fa8a489d43235bd13854e, type: 3}
-    - name: Rum
-      desc: A bottle of rum with few uses, subtracts 10% health from the player when
-        drunk
-      sprite: {fileID: 21300000, guid: ea00a6d7994c2d242b14cd6dd10ad70c, type: 3}
-    - name: Sugar Box
-      desc: A box of sugar that is used in many dessert recipes, cannot be eaten
-        on its own
-      sprite: {fileID: 21300000, guid: 4fe673b5d45ebeb4eb85751391f4b563, type: 3}
-    - name: Tomato
-      desc: A tomato that restores health by 5% and hunger by 10%, can be used for
-        more filling meals
-      sprite: {fileID: 21300000, guid: ed61b5c37186cc04caed3e0e16250602, type: 3}
-    - name: Water
-      desc: ' Gotta have water on you, super important especially when u dont have
-        milk or brain juice '
-      sprite: {fileID: 21300000, guid: 0eb0aaba0ce49d64294a86ebcfd52a5a, type: 3}
-    - name: White Wine
-      desc: ' Gotta have water on you, super important especially when u dont have
-        milk or brain juice '
-      sprite: {fileID: 21300000, guid: db5e51716094e62419e0716216de2be9, type: 3}
-  - name: Interactable Items - Misc
-    description: 
-    items:
-    - name: Car Battery
-      desc: A not very common item found in structures that has little use in this
-        version
-      sprite: {fileID: 21300000, guid: 4e8878b46ab63c54aad7c85d061fa7aa, type: 3}
-    - name: Crude Medicine
-      desc: A crude medicine made from natural items, restores health by only 30%
-        compare to more effective medicines
-      sprite: {fileID: 21300000, guid: 1a1bcfe72fecfa3448d8fb680aaf9575, type: 3}
-    - name: Fuel Canister
-      desc: A canister of fuel that has little uses in this version
-      sprite: {fileID: 21300000, guid: 7e8314194bb255d429e58b0a6236541b, type: 3}
-    - name: Gas Bottle
-      desc: 'A bottle of gas that can be used for as a tool for recipes (Tools are
-        items that are needed to craft a recipe but are not removed from your inventory
-        when the item is crafted) '
-      sprite: {fileID: 21300000, guid: b2cb0d31bac308143ac6193569c8803e, type: 3}
-    - name: Medicine
-      desc: Heals the player by restoring health by 60%
-      sprite: {fileID: 21300000, guid: a72c67359ac2a6642a8fc78f0cdf2a19, type: 3}
-    - name: Stone Block
-      desc: A combination of stone bricks for bigger items such as statues
-      sprite: {fileID: 21300000, guid: c834e52b91402d741911a683207ed3c2, type: 3}
-    - name: Stone Brick
-      desc: A primitive and simple brick that can be made with stone & a pickaxe,
-        used for building structures
-      sprite: {fileID: 21300000, guid: aa8f8b365fa3e4d41af0743622baa48e, type: 3}
-    - name: Toilet Paper
-      desc: An item that can be used for nothing really
-      sprite: {fileID: 21300000, guid: 05042dfe6114fe64981aeb2a169a8faf, type: 3}
-  - name: Interactable Items - Misc Nature
-    description: 
-    items:
-    - name: Birch Log
-      desc: Birch logs are the main product of cutting down birch trees, can also
-        be found spawning naturally. needed for many recipes including tools & structures
-      sprite: {fileID: 21300000, guid: 05c29595f8d0d2b45bc7c3798e742062, type: 3}
-    - name: Boletus Mushroom
-      desc: A mushroom found in the world, can be used for lots of recipes including
-        crude medicine
-      sprite: {fileID: 21300000, guid: 60c5d0ee0d74c16489a63f75226bf87d, type: 3}
-    - name: Cactus
-      desc: A not very common plant found in few biomes with only a few recipes that
-        use it
-      sprite: {fileID: 21300000, guid: 3aa391e74d92a1b439b4fc05d3955ac7, type: 3}
-    - name: Carved Pumpkin
-      desc: A place able pumpkin that can be used for decorations, cannot be used
-        for food
-      sprite: {fileID: 21300000, guid: b8c61a9212e190f4f97ed6a70450489c, type: 3}
-    - name: Green Toadstool
-      desc: A mushroom found in the world, can be used for lots of recipes including
-        crude medicine
-      sprite: {fileID: 21300000, guid: 9b840bc24eb94b44385f398fdd096de1, type: 3}
-    - name: Log
-      desc: Logs are the main product of cutting down trees, can also be found spawning
-        naturally. needed for many recipes including tools & structures
-      sprite: {fileID: 21300000, guid: 5bfd1682ae916234bb340111b4fa9d5d, type: 3}
-    - name: Pumpkin
-      desc: 'A standard pumpkin commonly found and can be used for recipes  & making
-        carved pumpkins '
-      sprite: {fileID: 21300000, guid: d186ce7eb27f4ed4b96fb0db52576cb8, type: 3}
-    - name: Pumpkin With Leaves
-      desc: A standard pumpkin with leaves & stalk still on it, can still be used
-        with recipes just like a normal pumpkin
-      sprite: {fileID: 21300000, guid: a72fb5849299aeb4ea12221b9357ddc9, type: 3}
-    - name: Roses
-      desc: Common roses found in the world, can be used for primitive recipes such
-        as medicine, etc
-      sprite: {fileID: 21300000, guid: 56f3f616e80f07a4ab6eea0e89f8a89e, type: 3}
-    - name: Sunflower
-      desc: A simple flower that can be used for recipes
-      sprite: {fileID: 21300000, guid: e0e74af2cb0c4d241a4acffcc5333b25, type: 3}
-    - name: Toadstool
-      desc: A mushroom found in the world, can be used for lots of recipes including
-        crude medicine
-      sprite: {fileID: 21300000, guid: 4866c413fe86dbe429f540df731836e4, type: 3}
-  sectionsList: {fileID: 0}
-  sectionsListView: {fileID: 0}
-  section: {fileID: 0}
-  itemList: {fileID: 0}
-  sectionBackButton: {fileID: 0}
-  sectionDescription: {fileID: 0}
-  item: {fileID: 0}
-  itemBackButton: {fileID: 0}
-  itemSprite: {fileID: 0}
-  itemName: {fileID: 0}
-  itemDescription: {fileID: 0}
-  font: {fileID: 0}
 --- !u!1 &658075136
 GameObject:
   m_ObjectHideFlags: 0
@@ -8787,6 +8301,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -9008,6 +8523,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -9271,6 +8787,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -9554,6 +9071,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -9670,6 +9188,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -9936,6 +9455,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -10009,7 +9529,6 @@ MonoBehaviour:
   MusicAudioSlider: {fileID: 0}
   RenderDistance: {fileID: 0}
   RenderDistanceT: {fileID: 0}
-  LQGeneration: {fileID: 0}
   FramerateSlider: {fileID: 0}
   FramerateTxt: {fileID: 0}
   UseAliasing: {fileID: 0}
@@ -10109,6 +9628,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -10204,6 +9724,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -10299,6 +9820,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -10412,6 +9934,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -10681,6 +10204,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -10903,6 +10427,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -10998,6 +10523,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -11093,6 +10619,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -11321,6 +10848,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -11416,6 +10944,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -11532,6 +11061,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -11627,6 +11157,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -11722,6 +11253,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -11838,6 +11370,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -12188,6 +11721,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -12283,6 +11817,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -12378,6 +11913,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -12594,6 +12130,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -12843,6 +12380,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -13473,11 +13011,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d5ed9d55d767f47ef80b94009415a728, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  biomesDictionary: []
-  meshSettings: {fileID: 0}
-  heightMapSettings: {fileID: 11400000, guid: 740a13ca91e454c51aeb1f625a396eca, type: 2}
+  GenerationSettings: {fileID: 0}
+  LobbyChunks: {fileID: 0}
+  LODDst: []
   mapMaterial: {fileID: 2100000, guid: b0872f84cf3c7441d893168677410c73, type: 2}
-  generateType: 0
   meshWorldSize: 0
   chunksVisibleInViewDst: 0
   ViewDst: 0
@@ -13627,6 +13164,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -13743,6 +13281,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -14198,6 +13737,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -14502,6 +14042,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -14597,6 +14138,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -14753,6 +14295,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -15120,7 +14663,6 @@ Transform:
   - {fileID: 488199306}
   - {fileID: 605414253}
   - {fileID: 1095619830}
-  - {fileID: 1805603564}
   - {fileID: 2116853392}
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -15385,6 +14927,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -15480,6 +15023,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -15562,19 +15106,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ba1e28759461574e9e5fed8efd8e694, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  worlds:
-  - propsParent: {fileID: 864341746}
-    pos: {x: 0, y: 0, z: 0}
-    seed: 2
-    name: Tutorial World
-  worldsUIParent: {fileID: 0}
-  buttonFont: {fileID: 12800000, guid: 54e82b4371d3f4a4db71f2be1df35bf5, type: 3}
-  currentWorldSettings:
-    propsParent: {fileID: 0}
-    pos: {x: 0, y: 0, z: 0}
-    seed: 0
-    name: 
-  isInWorld: 0
 --- !u!114 &1184741194
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15587,62 +15118,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b42fe29615466d94bb9579c7b814f0f8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tutWorld:
-    propsParent: {fileID: 864341746}
-    pos: {x: 0, y: 0, z: 0}
-    seed: 432
-    name: Tutorial World
-  infoBox:
-    infoParent: {fileID: 0}
-    descText: {fileID: 0}
-    image: {fileID: 0}
-  controlsStruct:
-    MoveJoystick: {fileID: 0}
-    CameraJoystick: {fileID: 0}
-    JumpButton: {fileID: 0}
-    MenuButton: {fileID: 0}
-  tutInfos:
-  - title: Basics
-    desc: Welcome! Use the circles on the bottom of your screen to move around your
-      player. Make your way through this tutorial before you head into the world.
-      You can also pickup items you find as they might be useful!
-    img: {fileID: 21300000, guid: fab8346ac96b38a8795b3f34fac4293e, type: 3}
-    controlsChoice:
-      MoveJoystick: 1
-      CameraJoystick: 1
-      JumpButton: 1
-      MenuButton: 0
-  - title: Shortcut Menu
-    desc: Hooray! You managed to use the controls, click on the shortcut button to
-      access the shortcut menu. This contains a lot of useful menus & areas such
-      as Inventory, Crafting & Vitals!   You can also pick up items around you and
-      they will be put in your inventory.
-    img: {fileID: 21300000, guid: fcd1e3d455ea9744db53acf6a5e61f45, type: 3}
-    controlsChoice:
-      MoveJoystick: 1
-      CameraJoystick: 1
-      JumpButton: 1
-      MenuButton: 1
-  - title: Items & Crafting
-    desc: Now you are getting the basics done, you can now experiment with crafting
-      and items! Pick up all the items you see and head over to the shortcut menu
-      and then crafting, and see what can be made!
-    img: {fileID: 21300000, guid: 372fa79d6d3ee0641937f28029c34039, type: 3}
-    controlsChoice:
-      MoveJoystick: 1
-      CameraJoystick: 1
-      JumpButton: 1
-      MenuButton: 1
-  - title: Have fun!
-    desc: You have pretty much finished the introduction! But before you go, don't
-      you think that axe over there can be christened by chopping that menacing tree?
-      All you have to do is equip it in your inventory :D
-    img: {fileID: 21300000, guid: 91595ca0429f3ec2ab18a6715c64b61f, type: 3}
-    controlsChoice:
-      MoveJoystick: 1
-      CameraJoystick: 1
-      JumpButton: 1
-      MenuButton: 1
 --- !u!1 &1189501763
 GameObject:
   m_ObjectHideFlags: 0
@@ -15793,6 +15268,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -15909,6 +15385,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -16004,6 +15481,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -16120,6 +15598,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -16236,6 +15715,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -16551,6 +16031,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -16721,6 +16202,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -16884,6 +16366,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -16996,6 +16479,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -17112,6 +16596,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -17207,6 +16692,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -17374,6 +16860,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -17469,6 +16956,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -17564,6 +17052,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -17659,6 +17148,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -17820,6 +17310,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -17915,6 +17406,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -18106,6 +17598,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -18334,6 +17827,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -18450,6 +17944,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -18545,6 +18040,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -18704,6 +18200,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -18817,6 +18314,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -19136,6 +18634,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -19268,6 +18767,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -19381,6 +18881,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -19603,6 +19104,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -19698,6 +19200,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -19793,6 +19296,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -20043,6 +19547,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -20238,6 +19743,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -20498,6 +20004,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -20726,6 +20233,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -20868,6 +20376,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -21096,6 +20605,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -21191,6 +20701,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -21286,6 +20797,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -21641,6 +21153,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -21736,6 +21249,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -21831,6 +21345,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -22096,6 +21611,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -22195,6 +21711,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -22347,6 +21864,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -22569,6 +22087,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -22685,6 +22204,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -22963,6 +22483,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -23155,6 +22676,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -23384,6 +22906,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -23500,6 +23023,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -23688,6 +23212,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -23978,6 +23503,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -24287,6 +23813,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -24443,70 +23970,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1793596038}
   m_CullTransparentMesh: 1
---- !u!1 &1805603563
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1805603564}
-  - component: {fileID: 1805603565}
-  - component: {fileID: 1805603566}
-  m_Layer: 0
-  m_Name: Lobby Manager
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1805603564
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1805603563}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 1141048446}
-  m_RootOrder: 4
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1805603565
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1805603563}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 666abf34677213542a2b8ff0f9bfad7a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  playerPrefab: {fileID: 5450375617976008865, guid: 479c94c3806ed4e4886785e47fbb8694, type: 3}
-  externalPlayerPrefab: {fileID: 5450375617976008865, guid: 841d2663f24afd14ba6cc5e7ad58c879, type: 3}
-  meshSettings: {fileID: 11400000, guid: 7e5ba77964dd7de44b309927b10eca77, type: 2}
-  heightMapSettings: {fileID: 11400000, guid: 740a13ca91e454c51aeb1f625a396eca, type: 2}
-  mapMaterial: {fileID: 2100000, guid: 4100bd8ce19193647a8eadff22db5258, type: 2}
-  meshWorldSize: 0
-  chunksVisibleInViewDst: 0
-  ViewDst: 0
---- !u!114 &1805603566
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1805603563}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 60765b39c6679414382a47b20bd4a882, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1807692680
 GameObject:
   m_ObjectHideFlags: 0
@@ -24585,6 +24048,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -24698,6 +24162,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -24814,6 +24279,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -24909,6 +24375,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -25068,6 +24535,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -25382,6 +24850,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -25494,6 +24963,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -25610,6 +25080,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -25930,6 +25401,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -26025,6 +25497,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -26271,6 +25744,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -26387,6 +25861,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -26514,6 +25989,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -26757,6 +26233,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -26873,6 +26350,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -26986,6 +26464,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -27216,6 +26695,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -27332,6 +26812,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -27958,6 +27439,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -28053,6 +27535,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -28245,6 +27728,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -28582,6 +28066,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -28801,7 +28286,6 @@ GameObject:
   m_Component:
   - component: {fileID: 2116853392}
   - component: {fileID: 2116853393}
-  - component: {fileID: 2116853394}
   m_Layer: 0
   m_Name: Client
   m_TagString: Untagged
@@ -28821,7 +28305,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1141048446}
-  m_RootOrder: 5
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &2116853393
 MonoBehaviour:
@@ -28835,19 +28319,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ecf5333aac5d2064e8c270f6aa032cca, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &2116853394
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2116853391}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3277d8ef0ef9fb149af16c9f5970a3a4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  myId: 0
 --- !u!1 &2117917683
 GameObject:
   m_ObjectHideFlags: 0
@@ -28984,6 +28455,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1

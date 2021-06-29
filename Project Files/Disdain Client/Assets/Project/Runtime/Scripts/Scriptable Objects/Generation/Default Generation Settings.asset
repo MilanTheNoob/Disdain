@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c9ab5cb40c853734fae18ab6bac449fa, type: 3}
+  m_Name: Default Generation Settings
+  m_EditorClassIdentifier: 
+  PropSettings:
+    PropTypes:
+    - ID: Trees
+      Props:
+      - ID: 0
+        Prefabs:
+        - {fileID: 122432, guid: 11ad2aad81c544d45bc4c486409c42e0, type: 3}
+        - {fileID: 133664, guid: bde5992e066d84549b42e696d8e7d00a, type: 3}
+      - ID: 0
+        Prefabs:
+        - {fileID: 1309073278134710, guid: 3ca11b02fb0959f46b45571b3ac7dc10, type: 3}
+        - {fileID: 1309073278134710, guid: 3ca11b02fb0959f46b45571b3ac7dc10, type: 3}
+    PoolSizes: 500
+  MeshSetting:
+    ySize: 75
+    meshScale: 1
+    useFlatShading: 1
+    ChunkSize: 64

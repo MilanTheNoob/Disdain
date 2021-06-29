@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 962081136}
-  m_IndirectSpecularColor: {r: 0.43155733, g: 0.6567538, b: 0.948345, a: 1}
+  m_IndirectSpecularColor: {r: 0.4034848, g: 0.65133536, b: 0.9598629, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -161,10 +161,10 @@ RectTransform:
   m_Father: {fileID: 1025319393}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 293.25024, y: -432.31433}
+  m_SizeDelta: {x: 546.5005, y: 87.18096}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &732719
 MonoBehaviour:
@@ -645,7 +645,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 1141048447}
         m_TargetAssemblyTypeName: GameManager, Assembly-CSharp
         m_MethodName: ToggleUISection
         m_Mode: 3
@@ -824,6 +824,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemSettings: {fileID: 0}
   itemName: 
+  UseInventory: 0
+  Clicked: 0
+  BGIcon: {fileID: 0}
 --- !u!114 &9816153
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -951,12 +954,12 @@ RectTransform:
   m_Children:
   - {fileID: 2017853589}
   m_Father: {fileID: 395457121}
-  m_RootOrder: 3
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 227.29187, y: -43.59048}
+  m_SizeDelta: {x: 86.91675, y: 87.18096}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &11002207
 MonoBehaviour:
@@ -972,6 +975,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemSettings: {fileID: 0}
   itemName: 
+  UseInventory: 0
+  Clicked: 0
+  BGIcon: {fileID: 0}
 --- !u!114 &11002208
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1015,19 +1021,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 11002209}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 903372937}
-        m_TargetAssemblyTypeName: StorageManager, Assembly-CSharp
-        m_MethodName: ToStorage
-        m_Mode: 3
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 1
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!114 &11002209
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2022,10 +2016,10 @@ RectTransform:
   m_Father: {fileID: 2069005701}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 143.49997, y: -340.58533}
+  m_SizeDelta: {x: 286.99994, y: 66.79674}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &40965492
 MonoBehaviour:
@@ -2266,6 +2260,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemSettings: {fileID: 0}
   itemName: 
+  UseInventory: 0
+  Clicked: 0
+  BGIcon: {fileID: 0}
 --- !u!114 &54373963
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2451,6 +2448,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemSettings: {fileID: 0}
   itemName: 
+  UseInventory: 0
+  Clicked: 0
+  BGIcon: {fileID: 0}
 --- !u!1 &55208063
 GameObject:
   m_ObjectHideFlags: 0
@@ -2486,10 +2486,10 @@ RectTransform:
   m_Father: {fileID: 1387551843}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 227.29187, y: -43.59048}
+  m_SizeDelta: {x: 86.91675, y: 87.18096}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &55208065
 MonoBehaviour:
@@ -2505,6 +2505,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemSettings: {fileID: 0}
   itemName: 
+  UseInventory: 0
+  Clicked: 0
+  BGIcon: {fileID: 0}
 --- !u!114 &55208066
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2548,19 +2551,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 55208067}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 903372937}
-        m_TargetAssemblyTypeName: StorageManager, Assembly-CSharp
-        m_MethodName: ToStorage
-        m_Mode: 3
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 12
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!114 &55208067
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2653,6 +2644,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemSettings: {fileID: 0}
   itemName: 
+  UseInventory: 0
+  Clicked: 0
+  BGIcon: {fileID: 0}
 --- !u!114 &58828176
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3388,6 +3382,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemSettings: {fileID: 0}
   itemName: 
+  UseInventory: 0
+  Clicked: 0
+  BGIcon: {fileID: 0}
 --- !u!114 &70982475
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3789,6 +3786,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemSettings: {fileID: 0}
   itemName: 
+  UseInventory: 0
+  Clicked: 0
+  BGIcon: {fileID: 0}
 --- !u!114 &81157279
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3961,6 +3961,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemSettings: {fileID: 0}
   itemName: 
+  UseInventory: 0
+  Clicked: 0
+  BGIcon: {fileID: 0}
 --- !u!114 &81998523
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4221,6 +4224,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemSettings: {fileID: 0}
   itemName: 
+  UseInventory: 0
+  Clicked: 0
+  BGIcon: {fileID: 0}
 --- !u!1 &92846340
 GameObject:
   m_ObjectHideFlags: 0
@@ -4368,6 +4374,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemSettings: {fileID: 0}
   itemName: 
+  UseInventory: 0
+  Clicked: 0
+  BGIcon: {fileID: 0}
 --- !u!1 &95203592
 GameObject:
   m_ObjectHideFlags: 0
@@ -4403,10 +4412,10 @@ RectTransform:
   m_Father: {fileID: 1034560028}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 252.99994, y: -33.39837}
+  m_SizeDelta: {x: 67.999985, y: 66.79674}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &95203594
 MonoBehaviour:
@@ -4454,7 +4463,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 903372937}
         m_TargetAssemblyTypeName: StorageManager, Assembly-CSharp
-        m_MethodName: ToStorage
+        m_MethodName: ToPlayer
         m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -4478,6 +4487,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemSettings: {fileID: 0}
   itemName: 
+  UseInventory: 0
+  Clicked: 0
+  BGIcon: {fileID: 0}
 --- !u!114 &95203596
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4873,10 +4885,10 @@ RectTransform:
   m_Father: {fileID: 377129280}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 106.99998, y: -33.39837}
+  m_SizeDelta: {x: 67.999985, y: 66.79674}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &99923549
 MonoBehaviour:
@@ -4924,7 +4936,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 903372937}
         m_TargetAssemblyTypeName: StorageManager, Assembly-CSharp
-        m_MethodName: ToStorage
+        m_MethodName: ToPlayer
         m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -4948,6 +4960,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemSettings: {fileID: 0}
   itemName: 
+  UseInventory: 0
+  Clicked: 0
+  BGIcon: {fileID: 0}
 --- !u!114 &99923551
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5040,6 +5055,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemSettings: {fileID: 0}
   itemName: 
+  UseInventory: 0
+  Clicked: 0
+  BGIcon: {fileID: 0}
 --- !u!114 &103940575
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5454,6 +5472,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemSettings: {fileID: 0}
   itemName: 
+  UseInventory: 0
+  Clicked: 0
+  BGIcon: {fileID: 0}
 --- !u!1 &115911528
 GameObject:
   m_ObjectHideFlags: 0
@@ -5498,10 +5519,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 20fc33b69b5681747a5f0867b3c2e1d1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  DefaultPropSettings: {fileID: 11400000, guid: d1093226095ca904bbb0aa31e1b95dea, type: 2}
-  LQPropSettings: {fileID: 11400000, guid: 2ded7ee147e22d848b3f2fb7cff67f1c, type: 2}
-  PropPools: {fileID: 0}
-  PropSettings: {fileID: 11400000, guid: d1093226095ca904bbb0aa31e1b95dea, type: 2}
+  PropSettings:
+    PropTypes:
+    - ID: t
+      Props:
+      - ID: 0
+        Prefabs:
+        - {fileID: 183406, guid: 3030c91b36186a94abf7919571997e00, type: 3}
+        - {fileID: 179008, guid: 9affd77774df7854c856f06c11ecfdee, type: 3}
+    PoolSizes: 500
 --- !u!114 &115911531
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5514,11 +5540,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d5ed9d55d767f47ef80b94009415a728, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  biomesDictionary: []
-  meshSettings: {fileID: 11400000, guid: 7e5ba77964dd7de44b309927b10eca77, type: 2}
-  heightMapSettings: {fileID: 11400000, guid: 740a13ca91e454c51aeb1f625a396eca, type: 2}
+  GenerationSettings: {fileID: 11400000, guid: 6492634d39cdffb4aa276300e5a456bf, type: 2}
+  LobbyChunks: {fileID: 11400000, guid: 4e35d0f5788dafe4a84ad4ba63683ba0, type: 2}
+  LODDst:
+  - LOD: 0
+    ViewDst: 100
+  - LOD: 1
+    ViewDst: 400
+  - LOD: 4
+    ViewDst: 500
   mapMaterial: {fileID: 2100000, guid: 4100bd8ce19193647a8eadff22db5258, type: 2}
-  generateType: 0
   meshWorldSize: 0
   chunksVisibleInViewDst: 0
   ViewDst: 0
@@ -5765,6 +5796,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemSettings: {fileID: 0}
   itemName: 
+  UseInventory: 0
+  Clicked: 0
+  BGIcon: {fileID: 0}
 --- !u!1 &132436201
 GameObject:
   m_ObjectHideFlags: 0
@@ -5932,6 +5966,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemSettings: {fileID: 0}
   itemName: 
+  UseInventory: 0
+  Clicked: 0
+  BGIcon: {fileID: 0}
 --- !u!1 &133030496
 GameObject:
   m_ObjectHideFlags: 0
@@ -6319,6 +6356,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemSettings: {fileID: 0}
   itemName: 
+  UseInventory: 0
+  Clicked: 0
+  BGIcon: {fileID: 0}
 --- !u!1 &140275251
 GameObject:
   m_ObjectHideFlags: 0
@@ -6509,6 +6549,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemSettings: {fileID: 0}
   itemName: 
+  UseInventory: 0
+  Clicked: 0
+  BGIcon: {fileID: 0}
 --- !u!114 &144138752
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7247,10 +7290,10 @@ RectTransform:
   m_Father: {fileID: 732718}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 319.20862, y: -43.59048}
+  m_SizeDelta: {x: 86.91675, y: 87.18096}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &164191036
 MonoBehaviour:
@@ -7266,6 +7309,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemSettings: {fileID: 0}
   itemName: 
+  UseInventory: 0
+  Clicked: 0
+  BGIcon: {fileID: 0}
 --- !u!114 &164191037
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7309,19 +7355,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 164191038}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 903372937}
-        m_TargetAssemblyTypeName: StorageManager, Assembly-CSharp
-        m_MethodName: ToStorage
-        m_Mode: 3
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 25
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!114 &164191038
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7509,6 +7543,145 @@ CanvasRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 167646177}
+  m_CullTransparentMesh: 1
+--- !u!1 &169930709
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 169930710}
+  - component: {fileID: 169930714}
+  - component: {fileID: 169930713}
+  - component: {fileID: 169930712}
+  - component: {fileID: 169930711}
+  m_Layer: 0
+  m_Name: Inventory Slot (4)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &169930710
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 169930709}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1177672531}
+  m_Father: {fileID: 395457121}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 503.0421, y: -43.59048}
+  m_SizeDelta: {x: 86.91675, y: 87.18096}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &169930711
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 169930709}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7e8ea3cc215a1094b8149462c71d60da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemSettings: {fileID: 0}
+  itemName: 
+  UseInventory: 0
+  Clicked: 0
+  BGIcon: {fileID: 0}
+--- !u!114 &169930712
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 169930709}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Navigation:
+    m_Mode: 3
+    m_WrapAround: 0
+    m_SelectOnUp: {fileID: 0}
+    m_SelectOnDown: {fileID: 0}
+    m_SelectOnLeft: {fileID: 0}
+    m_SelectOnRight: {fileID: 0}
+  m_Transition: 1
+  m_Colors:
+    m_NormalColor: {r: 0.105882354, g: 0.105882354, b: 0.105882354, a: 1}
+    m_HighlightedColor: {r: 0.105882354, g: 0.105882354, b: 0.105882354, a: 1}
+    m_PressedColor: {r: 0.1254902, g: 0.1254902, b: 0.1254902, a: 1}
+    m_SelectedColor: {r: 0.105882354, g: 0.105882354, b: 0.105882354, a: 1}
+    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_ColorMultiplier: 1
+    m_FadeDuration: 0.1
+  m_SpriteState:
+    m_HighlightedSprite: {fileID: 0}
+    m_PressedSprite: {fileID: 0}
+    m_SelectedSprite: {fileID: 0}
+    m_DisabledSprite: {fileID: 0}
+  m_AnimationTriggers:
+    m_NormalTrigger: Normal
+    m_HighlightedTrigger: Highlighted
+    m_PressedTrigger: Pressed
+    m_SelectedTrigger: Selected
+    m_DisabledTrigger: Disabled
+  m_Interactable: 1
+  m_TargetGraphic: {fileID: 169930713}
+  m_OnClick:
+    m_PersistentCalls:
+      m_Calls: []
+--- !u!114 &169930713
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 169930709}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: 2658aca77a097824da7c866fe8fb6ea1, type: 3}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 2
+--- !u!222 &169930714
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 169930709}
   m_CullTransparentMesh: 1
 --- !u!1 &170004972
 GameObject:
@@ -7759,6 +7932,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemSettings: {fileID: 0}
   itemName: 
+  UseInventory: 0
+  Clicked: 0
+  BGIcon: {fileID: 0}
 --- !u!1 &176698481
 GameObject:
   m_ObjectHideFlags: 0
@@ -8953,6 +9129,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemSettings: {fileID: 0}
   itemName: 
+  UseInventory: 0
+  Clicked: 0
+  BGIcon: {fileID: 0}
 --- !u!1 &217356987
 GameObject:
   m_ObjectHideFlags: 0
@@ -9140,6 +9319,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemSettings: {fileID: 0}
   itemName: 
+  UseInventory: 0
+  Clicked: 0
+  BGIcon: {fileID: 0}
 --- !u!114 &218160737
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9425,6 +9607,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemSettings: {fileID: 0}
   itemName: 
+  UseInventory: 0
+  Clicked: 0
+  BGIcon: {fileID: 0}
 --- !u!114 &224152341
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9563,6 +9748,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemSettings: {fileID: 0}
   itemName: 
+  UseInventory: 0
+  Clicked: 0
+  BGIcon: {fileID: 0}
 --- !u!114 &227493510
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9748,6 +9936,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemSettings: {fileID: 0}
   itemName: 
+  UseInventory: 0
+  Clicked: 0
+  BGIcon: {fileID: 0}
 --- !u!1 &236891032
 GameObject:
   m_ObjectHideFlags: 0
@@ -9839,6 +10030,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemSettings: {fileID: 0}
   itemName: 
+  UseInventory: 0
+  Clicked: 0
+  BGIcon: {fileID: 0}
 --- !u!1 &237334024
 GameObject:
   m_ObjectHideFlags: 0
@@ -9930,6 +10124,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemSettings: {fileID: 0}
   itemName: 
+  UseInventory: 0
+  Clicked: 0
+  BGIcon: {fileID: 0}
 --- !u!1 &238373824
 GameObject:
   m_ObjectHideFlags: 0
@@ -10229,6 +10426,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemSettings: {fileID: 0}
   itemName: 
+  UseInventory: 0
+  Clicked: 0
+  BGIcon: {fileID: 0}
 --- !u!1 &254965660
 GameObject:
   m_ObjectHideFlags: 0
@@ -10362,6 +10562,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemSettings: {fileID: 0}
   itemName: 
+  UseInventory: 0
+  Clicked: 0
+  BGIcon: {fileID: 0}
 --- !u!114 &255956214
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10566,10 +10769,10 @@ RectTransform:
   m_Father: {fileID: 40965491}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 179.99997, y: -33.39837}
+  m_SizeDelta: {x: 67.999985, y: 66.79674}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &259593207
 MonoBehaviour:
@@ -10617,7 +10820,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 903372937}
         m_TargetAssemblyTypeName: StorageManager, Assembly-CSharp
-        m_MethodName: ToStorage
+        m_MethodName: ToPlayer
         m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -10641,6 +10844,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemSettings: {fileID: 0}
   itemName: 
+  UseInventory: 0
+  Clicked: 0
+  BGIcon: {fileID: 0}
 --- !u!114 &259593209
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10766,6 +10972,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemSettings: {fileID: 0}
   itemName: 
+  UseInventory: 0
+  Clicked: 0
+  BGIcon: {fileID: 0}
 --- !u!114 &265300975
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11200,6 +11409,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemSettings: {fileID: 0}
   itemName: 
+  UseInventory: 0
+  Clicked: 0
+  BGIcon: {fileID: 0}
 --- !u!114 &268884520
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11349,6 +11561,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemSettings: {fileID: 0}
   itemName: 
+  UseInventory: 0
+  Clicked: 0
+  BGIcon: {fileID: 0}
 --- !u!114 &276087146
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11476,12 +11691,12 @@ RectTransform:
   m_Children:
   - {fileID: 1327276273}
   m_Father: {fileID: 395457121}
-  m_RootOrder: 2
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 135.37512, y: -43.59048}
+  m_SizeDelta: {x: 86.91675, y: 87.18096}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &278935142
 MonoBehaviour:
@@ -11526,19 +11741,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 278935144}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 903372937}
-        m_TargetAssemblyTypeName: StorageManager, Assembly-CSharp
-        m_MethodName: ToStorage
-        m_Mode: 3
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!114 &278935143
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11553,6 +11756,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemSettings: {fileID: 0}
   itemName: 
+  UseInventory: 0
+  Clicked: 0
+  BGIcon: {fileID: 0}
 --- !u!114 &278935144
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11626,10 +11832,10 @@ RectTransform:
   m_Father: {fileID: 1819599248}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 135.37512, y: -43.59048}
+  m_SizeDelta: {x: 86.91675, y: 87.18096}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &279342982
 MonoBehaviour:
@@ -11645,6 +11851,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemSettings: {fileID: 0}
   itemName: 
+  UseInventory: 0
+  Clicked: 0
+  BGIcon: {fileID: 0}
 --- !u!114 &279342983
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11688,19 +11897,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 279342984}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 903372937}
-        m_TargetAssemblyTypeName: StorageManager, Assembly-CSharp
-        m_MethodName: ToStorage
-        m_Mode: 3
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 5
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!114 &279342984
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11774,10 +11971,10 @@ RectTransform:
   m_Father: {fileID: 1387551843}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 135.37512, y: -43.59048}
+  m_SizeDelta: {x: 86.91675, y: 87.18096}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &282853618
 MonoBehaviour:
@@ -11793,6 +11990,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemSettings: {fileID: 0}
   itemName: 
+  UseInventory: 0
+  Clicked: 0
+  BGIcon: {fileID: 0}
 --- !u!114 &282853619
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11836,19 +12036,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 282853620}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 903372937}
-        m_TargetAssemblyTypeName: StorageManager, Assembly-CSharp
-        m_MethodName: ToStorage
-        m_Mode: 3
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 11
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!114 &282853620
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11886,6 +12074,94 @@ CanvasRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 282853616}
+  m_CullTransparentMesh: 1
+--- !u!1 &283626194
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 283626195}
+  - component: {fileID: 283626198}
+  - component: {fileID: 283626197}
+  - component: {fileID: 283626196}
+  m_Layer: 0
+  m_Name: Accelerator
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &283626195
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 283626194}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 637431756}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0}
+  m_AnchorMax: {x: 0.5, y: 0}
+  m_AnchoredPosition: {x: -809, y: 174.48996}
+  m_SizeDelta: {x: 250, y: 250}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &283626196
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 283626194}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a021852acbb51ac4999fae4927f80cda, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &283626197
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 283626194}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.105882354, g: 0.105882354, b: 0.105882354, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: b29e4e897e7731046a7f741a7c635626, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &283626198
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 283626194}
   m_CullTransparentMesh: 1
 --- !u!1 &291477428
 GameObject:
@@ -12049,7 +12325,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &303782396
 RectTransform:
   m_ObjectHideFlags: 0
@@ -12190,6 +12466,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemSettings: {fileID: 0}
   itemName: 
+  UseInventory: 0
+  Clicked: 0
+  BGIcon: {fileID: 0}
 --- !u!114 &307028527
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12472,10 +12751,10 @@ RectTransform:
   m_Father: {fileID: 2069005701}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 143.49997, y: -125.19511}
+  m_SizeDelta: {x: 286.99994, y: 66.79674}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &321056273
 MonoBehaviour:
@@ -13340,6 +13619,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemSettings: {fileID: 0}
   itemName: 
+  UseInventory: 0
+  Clicked: 0
+  BGIcon: {fileID: 0}
 --- !u!114 &344038858
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13957,6 +14239,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemSettings: {fileID: 0}
   itemName: 
+  UseInventory: 0
+  Clicked: 0
+  BGIcon: {fileID: 0}
 --- !u!1 &360322029
 GameObject:
   m_ObjectHideFlags: 0
@@ -14068,6 +14353,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemSettings: {fileID: 0}
   itemName: 
+  UseInventory: 0
+  Clicked: 0
+  BGIcon: {fileID: 0}
 --- !u!114 &360322033
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14296,6 +14584,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemSettings: {fileID: 0}
   itemName: 
+  UseInventory: 0
+  Clicked: 0
+  BGIcon: {fileID: 0}
 --- !u!114 &362329572
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14670,6 +14961,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemSettings: {fileID: 0}
   itemName: 
+  UseInventory: 0
+  Clicked: 0
+  BGIcon: {fileID: 0}
 --- !u!114 &372968158
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14819,6 +15113,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemSettings: {fileID: 0}
   itemName: 
+  UseInventory: 0
+  Clicked: 0
+  BGIcon: {fileID: 0}
 --- !u!114 &374250765
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14893,10 +15190,10 @@ RectTransform:
   m_Father: {fileID: 2069005701}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 143.49997, y: -268.78857}
+  m_SizeDelta: {x: 286.99994, y: 66.79674}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &377129281
 MonoBehaviour:
@@ -14967,10 +15264,10 @@ RectTransform:
   m_Father: {fileID: 321056272}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 179.99997, y: -33.39837}
+  m_SizeDelta: {x: 67.999985, y: 66.79674}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &377323561
 MonoBehaviour:
@@ -15018,7 +15315,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 903372937}
         m_TargetAssemblyTypeName: StorageManager, Assembly-CSharp
-        m_MethodName: ToStorage
+        m_MethodName: ToPlayer
         m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -15042,6 +15339,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemSettings: {fileID: 0}
   itemName: 
+  UseInventory: 0
+  Clicked: 0
+  BGIcon: {fileID: 0}
 --- !u!114 &377323563
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15188,12 +15488,12 @@ RectTransform:
   m_Children:
   - {fileID: 2035021711}
   m_Father: {fileID: 395457121}
-  m_RootOrder: 5
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 411.12537, y: -43.59048}
+  m_SizeDelta: {x: 86.91675, y: 87.18096}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &380972613
 MonoBehaviour:
@@ -15209,6 +15509,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemSettings: {fileID: 0}
   itemName: 
+  UseInventory: 0
+  Clicked: 0
+  BGIcon: {fileID: 0}
 --- !u!114 &380972614
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15252,19 +15555,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 380972615}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 903372937}
-        m_TargetAssemblyTypeName: StorageManager, Assembly-CSharp
-        m_MethodName: ToStorage
-        m_Mode: 3
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 3
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!114 &380972615
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15471,6 +15762,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemSettings: {fileID: 0}
   itemName: 
+  UseInventory: 0
+  Clicked: 0
+  BGIcon: {fileID: 0}
 --- !u!1 &389275667
 GameObject:
   m_ObjectHideFlags: 0
@@ -15886,6 +16180,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemSettings: {fileID: 0}
   itemName: 
+  UseInventory: 0
+  Clicked: 0
+  BGIcon: {fileID: 0}
 --- !u!1 &393422683
 GameObject:
   m_ObjectHideFlags: 0
@@ -15991,18 +16288,18 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1621154172}
-  - {fileID: 1119998507}
   - {fileID: 278935141}
   - {fileID: 11002206}
   - {fileID: 1430861903}
   - {fileID: 380972612}
+  - {fileID: 169930710}
   m_Father: {fileID: 1025319393}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 293.25024, y: -63.59048}
+  m_SizeDelta: {x: 546.5005, y: 87.18096}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &395457122
 MonoBehaviour:
@@ -16539,6 +16836,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemSettings: {fileID: 0}
   itemName: 
+  UseInventory: 0
+  Clicked: 0
+  BGIcon: {fileID: 0}
 --- !u!114 &420163668
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -16880,6 +17180,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemSettings: {fileID: 0}
   itemName: 
+  UseInventory: 0
+  Clicked: 0
+  BGIcon: {fileID: 0}
 --- !u!1 &432239216
 GameObject:
   m_ObjectHideFlags: 0
@@ -17159,6 +17462,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemSettings: {fileID: 0}
   itemName: 
+  UseInventory: 0
+  Clicked: 0
+  BGIcon: {fileID: 0}
 --- !u!114 &446469773
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -17344,6 +17650,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemSettings: {fileID: 0}
   itemName: 
+  UseInventory: 0
+  Clicked: 0
+  BGIcon: {fileID: 0}
 --- !u!1 &447671290
 GameObject:
   m_ObjectHideFlags: 0
@@ -17435,6 +17744,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemSettings: {fileID: 0}
   itemName: 
+  UseInventory: 0
+  Clicked: 0
+  BGIcon: {fileID: 0}
 --- !u!1 &451394671
 GameObject:
   m_ObjectHideFlags: 0
@@ -17526,6 +17838,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemSettings: {fileID: 0}
   itemName: 
+  UseInventory: 0
+  Clicked: 0
+  BGIcon: {fileID: 0}
 --- !u!1 &453674889
 GameObject:
   m_ObjectHideFlags: 0
@@ -17655,6 +17970,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemSettings: {fileID: 0}
   itemName: 
+  UseInventory: 0
+  Clicked: 0
+  BGIcon: {fileID: 0}
 --- !u!114 &456127563
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -17955,6 +18273,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemSettings: {fileID: 0}
   itemName: 
+  UseInventory: 0
+  Clicked: 0
+  BGIcon: {fileID: 0}
 --- !u!114 &464755673
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -18313,10 +18634,10 @@ RectTransform:
   m_Father: {fileID: 40965491}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 106.99998, y: -33.39837}
+  m_SizeDelta: {x: 67.999985, y: 66.79674}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &473393369
 MonoBehaviour:
@@ -18364,7 +18685,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 903372937}
         m_TargetAssemblyTypeName: StorageManager, Assembly-CSharp
-        m_MethodName: ToStorage
+        m_MethodName: ToPlayer
         m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -18388,6 +18709,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemSettings: {fileID: 0}
   itemName: 
+  UseInventory: 0
+  Clicked: 0
+  BGIcon: {fileID: 0}
 --- !u!114 &473393371
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -18607,10 +18931,10 @@ RectTransform:
   m_Father: {fileID: 377129280}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 33.999992, y: -33.39837}
+  m_SizeDelta: {x: 67.999985, y: 66.79674}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &485379255
 MonoBehaviour:
@@ -18658,7 +18982,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 903372937}
         m_TargetAssemblyTypeName: StorageManager, Assembly-CSharp
-        m_MethodName: ToStorage
+        m_MethodName: ToPlayer
         m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -18682,6 +19006,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemSettings: {fileID: 0}
   itemName: 
+  UseInventory: 0
+  Clicked: 0
+  BGIcon: {fileID: 0}
 --- !u!114 &485379257
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -19037,8 +19364,6 @@ GameObject:
   - component: {fileID: 499431175}
   - component: {fileID: 499431179}
   - component: {fileID: 499431178}
-  - component: {fileID: 499431177}
-  - component: {fileID: 499431176}
   m_Layer: 0
   m_Name: Inventory Slot (27)
   m_TagString: Untagged
@@ -19056,86 +19381,15 @@ RectTransform:
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 2068808330}
+  m_Children: []
   m_Father: {fileID: 732718}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 503.0421, y: -43.59048}
+  m_SizeDelta: {x: 86.91675, y: 87.18096}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &499431176
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 499431174}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7e8ea3cc215a1094b8149462c71d60da, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemSettings: {fileID: 0}
-  itemName: 
---- !u!114 &499431177
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 499431174}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Navigation:
-    m_Mode: 3
-    m_WrapAround: 0
-    m_SelectOnUp: {fileID: 0}
-    m_SelectOnDown: {fileID: 0}
-    m_SelectOnLeft: {fileID: 0}
-    m_SelectOnRight: {fileID: 0}
-  m_Transition: 1
-  m_Colors:
-    m_NormalColor: {r: 0.105882354, g: 0.105882354, b: 0.105882354, a: 1}
-    m_HighlightedColor: {r: 0.105882354, g: 0.105882354, b: 0.105882354, a: 1}
-    m_PressedColor: {r: 0.1254902, g: 0.1254902, b: 0.1254902, a: 1}
-    m_SelectedColor: {r: 0.105882354, g: 0.105882354, b: 0.105882354, a: 1}
-    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
-    m_ColorMultiplier: 1
-    m_FadeDuration: 0.1
-  m_SpriteState:
-    m_HighlightedSprite: {fileID: 0}
-    m_PressedSprite: {fileID: 0}
-    m_SelectedSprite: {fileID: 0}
-    m_DisabledSprite: {fileID: 0}
-  m_AnimationTriggers:
-    m_NormalTrigger: Normal
-    m_HighlightedTrigger: Highlighted
-    m_PressedTrigger: Pressed
-    m_SelectedTrigger: Selected
-    m_DisabledTrigger: Disabled
-  m_Interactable: 1
-  m_TargetGraphic: {fileID: 499431178}
-  m_OnClick:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 903372937}
-        m_TargetAssemblyTypeName: StorageManager, Assembly-CSharp
-        m_MethodName: ToStorage
-        m_Mode: 3
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 27
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
 --- !u!114 &499431178
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -19149,7 +19403,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 0}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -20465,6 +20719,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemSettings: {fileID: 0}
   itemName: 
+  UseInventory: 0
+  Clicked: 0
+  BGIcon: {fileID: 0}
 --- !u!1 &538117687
 GameObject:
   m_ObjectHideFlags: 0
@@ -20519,6 +20776,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemSettings: {fileID: 0}
   itemName: 
+  UseInventory: 0
+  Clicked: 0
+  BGIcon: {fileID: 0}
 --- !u!114 &538117690
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -20916,6 +21176,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemSettings: {fileID: 0}
   itemName: 
+  UseInventory: 0
+  Clicked: 0
+  BGIcon: {fileID: 0}
 --- !u!1 &552730978
 GameObject:
   m_ObjectHideFlags: 0
@@ -21086,6 +21349,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemSettings: {fileID: 0}
   itemName: 
+  UseInventory: 0
+  Clicked: 0
+  BGIcon: {fileID: 0}
 --- !u!1 &557610198
 GameObject:
   m_ObjectHideFlags: 0
@@ -21197,6 +21463,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemSettings: {fileID: 0}
   itemName: 
+  UseInventory: 0
+  Clicked: 0
+  BGIcon: {fileID: 0}
 --- !u!114 &557610202
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -21389,42 +21658,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 559783964}
   m_CullTransparentMesh: 1
---- !u!1 &560097022
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 560097023}
-  m_Layer: 0
-  m_Name: Fill Area
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &560097023
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 560097022}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 1695962408}
-  m_Father: {fileID: 1116733697}
-  m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0.25}
-  m_AnchorMax: {x: 1, y: 0.75}
-  m_AnchoredPosition: {x: -5, y: 0.00012207031}
-  m_SizeDelta: {x: -20, y: 14.959}
-  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &561892701
 GameObject:
   m_ObjectHideFlags: 0
@@ -21662,6 +21895,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemSettings: {fileID: 0}
   itemName: 
+  UseInventory: 0
+  Clicked: 0
+  BGIcon: {fileID: 0}
 --- !u!1 &572472285
 GameObject:
   m_ObjectHideFlags: 0
@@ -21716,6 +21952,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemSettings: {fileID: 0}
   itemName: 
+  UseInventory: 0
+  Clicked: 0
+  BGIcon: {fileID: 0}
 --- !u!114 &572472288
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -21845,10 +22084,10 @@ RectTransform:
   m_Father: {fileID: 321056272}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 252.99994, y: -33.39837}
+  m_SizeDelta: {x: 67.999985, y: 66.79674}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &572659575
 MonoBehaviour:
@@ -21896,7 +22135,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 903372937}
         m_TargetAssemblyTypeName: StorageManager, Assembly-CSharp
-        m_MethodName: ToStorage
+        m_MethodName: ToPlayer
         m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -21920,6 +22159,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemSettings: {fileID: 0}
   itemName: 
+  UseInventory: 0
+  Clicked: 0
+  BGIcon: {fileID: 0}
 --- !u!114 &572659577
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -22715,6 +22957,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemSettings: {fileID: 0}
   itemName: 
+  UseInventory: 0
+  Clicked: 0
+  BGIcon: {fileID: 0}
 --- !u!1 &591757365
 GameObject:
   m_ObjectHideFlags: 0
@@ -22788,81 +23033,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 591757365}
   m_CullTransparentMesh: 1
---- !u!1 &591868940
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 591868941}
-  - component: {fileID: 591868943}
-  - component: {fileID: 591868942}
-  m_Layer: 0
-  m_Name: Handle
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &591868941
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 591868940}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 1088742319}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 36.899902, y: 0}
-  m_SizeDelta: {x: 100, y: 0}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &591868942
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 591868940}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 0, g: 0.25882354, b: 0.25882354, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 2658aca77a097824da7c866fe8fb6ea1, type: 3}
-  m_Type: 1
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
---- !u!222 &591868943
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 591868940}
-  m_CullTransparentMesh: 0
 --- !u!1 &592705122
 GameObject:
   m_ObjectHideFlags: 0
@@ -23564,10 +23734,10 @@ RectTransform:
   m_Father: {fileID: 2069005701}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 143.49997, y: -53.39837}
+  m_SizeDelta: {x: 286.99994, y: 66.79674}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &611306959
 MonoBehaviour:
@@ -24075,6 +24245,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemSettings: {fileID: 0}
   itemName: 
+  UseInventory: 0
+  Clicked: 0
+  BGIcon: {fileID: 0}
 --- !u!114 &627655968
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -24184,7 +24357,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &637431756
 RectTransform:
   m_ObjectHideFlags: 0
@@ -24197,8 +24370,9 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1400511746}
-  - {fileID: 1116733697}
   - {fileID: 2132704118}
+  - {fileID: 283626195}
+  - {fileID: 1838664424}
   m_Father: {fileID: 303782396}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -24375,6 +24549,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemSettings: {fileID: 0}
   itemName: 
+  UseInventory: 0
+  Clicked: 0
+  BGIcon: {fileID: 0}
 --- !u!1 &651968248
 GameObject:
   m_ObjectHideFlags: 0
@@ -24429,6 +24606,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemSettings: {fileID: 0}
   itemName: 
+  UseInventory: 0
+  Clicked: 0
+  BGIcon: {fileID: 0}
 --- !u!114 &651968251
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -24860,6 +25040,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemSettings: {fileID: 0}
   itemName: 
+  UseInventory: 0
+  Clicked: 0
+  BGIcon: {fileID: 0}
 --- !u!114 &659556725
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -25759,10 +25942,10 @@ RectTransform:
   m_Father: {fileID: 1387551843}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 43.458374, y: -43.59048}
+  m_SizeDelta: {x: 86.91675, y: 87.18096}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &680727470
 MonoBehaviour:
@@ -25778,6 +25961,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemSettings: {fileID: 0}
   itemName: 
+  UseInventory: 0
+  Clicked: 0
+  BGIcon: {fileID: 0}
 --- !u!114 &680727471
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -25821,19 +26007,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 680727472}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 903372937}
-        m_TargetAssemblyTypeName: StorageManager, Assembly-CSharp
-        m_MethodName: ToStorage
-        m_Mode: 3
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 10
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!114 &680727472
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -25907,10 +26081,10 @@ RectTransform:
   m_Father: {fileID: 1178533785}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 135.37512, y: -43.59048}
+  m_SizeDelta: {x: 86.91675, y: 87.18096}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &681839184
 MonoBehaviour:
@@ -25926,6 +26100,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemSettings: {fileID: 0}
   itemName: 
+  UseInventory: 0
+  Clicked: 0
+  BGIcon: {fileID: 0}
 --- !u!114 &681839185
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -25969,19 +26146,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 681839186}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 903372937}
-        m_TargetAssemblyTypeName: StorageManager, Assembly-CSharp
-        m_MethodName: ToStorage
-        m_Mode: 3
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 17
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!114 &681839186
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -26503,6 +26668,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemSettings: {fileID: 0}
   itemName: 
+  UseInventory: 0
+  Clicked: 0
+  BGIcon: {fileID: 0}
 --- !u!114 &690392828
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -26652,6 +26820,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemSettings: {fileID: 0}
   itemName: 
+  UseInventory: 0
+  Clicked: 0
+  BGIcon: {fileID: 0}
 --- !u!114 &690402219
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -26837,6 +27008,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemSettings: {fileID: 0}
   itemName: 
+  UseInventory: 0
+  Clicked: 0
+  BGIcon: {fileID: 0}
 --- !u!1 &696252130
 GameObject:
   m_ObjectHideFlags: 0
@@ -27098,6 +27272,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemSettings: {fileID: 0}
   itemName: 
+  UseInventory: 0
+  Clicked: 0
+  BGIcon: {fileID: 0}
 --- !u!114 &722248011
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -27379,6 +27556,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemSettings: {fileID: 0}
   itemName: 
+  UseInventory: 0
+  Clicked: 0
+  BGIcon: {fileID: 0}
 --- !u!1 &726658826
 GameObject:
   m_ObjectHideFlags: 0
@@ -27414,10 +27594,10 @@ RectTransform:
   m_Father: {fileID: 732718}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 135.37512, y: -43.59048}
+  m_SizeDelta: {x: 86.91675, y: 87.18096}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &726658828
 MonoBehaviour:
@@ -27433,6 +27613,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemSettings: {fileID: 0}
   itemName: 
+  UseInventory: 0
+  Clicked: 0
+  BGIcon: {fileID: 0}
 --- !u!114 &726658829
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -27476,19 +27659,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 726658830}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 903372937}
-        m_TargetAssemblyTypeName: StorageManager, Assembly-CSharp
-        m_MethodName: ToStorage
-        m_Mode: 3
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 23
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!114 &726658830
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -28211,6 +28382,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemSettings: {fileID: 0}
   itemName: 
+  UseInventory: 0
+  Clicked: 0
+  BGIcon: {fileID: 0}
 --- !u!1 &755100856
 GameObject:
   m_ObjectHideFlags: 0
@@ -28475,6 +28649,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemSettings: {fileID: 0}
   itemName: 
+  UseInventory: 0
+  Clicked: 0
+  BGIcon: {fileID: 0}
 --- !u!1 &758716934
 GameObject:
   m_ObjectHideFlags: 0
@@ -28735,10 +28912,10 @@ RectTransform:
   m_Father: {fileID: 1178533785}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 411.12537, y: -43.59048}
+  m_SizeDelta: {x: 86.91675, y: 87.18096}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &761052624
 MonoBehaviour:
@@ -28754,6 +28931,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemSettings: {fileID: 0}
   itemName: 
+  UseInventory: 0
+  Clicked: 0
+  BGIcon: {fileID: 0}
 --- !u!114 &761052625
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -28797,19 +28977,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 761052626}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 903372937}
-        m_TargetAssemblyTypeName: StorageManager, Assembly-CSharp
-        m_MethodName: ToStorage
-        m_Mode: 3
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 20
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!114 &761052626
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -28939,6 +29107,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemSettings: {fileID: 0}
   itemName: 
+  UseInventory: 0
+  Clicked: 0
+  BGIcon: {fileID: 0}
 --- !u!1 &764332941
 GameObject:
   m_ObjectHideFlags: 0
@@ -28974,10 +29145,10 @@ RectTransform:
   m_Father: {fileID: 1819599248}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 319.20862, y: -43.59048}
+  m_SizeDelta: {x: 86.91675, y: 87.18096}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &764332943
 MonoBehaviour:
@@ -28993,6 +29164,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemSettings: {fileID: 0}
   itemName: 
+  UseInventory: 0
+  Clicked: 0
+  BGIcon: {fileID: 0}
 --- !u!114 &764332944
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -29036,19 +29210,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 764332945}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 903372937}
-        m_TargetAssemblyTypeName: StorageManager, Assembly-CSharp
-        m_MethodName: ToStorage
-        m_Mode: 3
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 7
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!114 &764332945
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -29178,6 +29340,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemSettings: {fileID: 0}
   itemName: 
+  UseInventory: 0
+  Clicked: 0
+  BGIcon: {fileID: 0}
 --- !u!1 &773283881
 GameObject:
   m_ObjectHideFlags: 0
@@ -29641,6 +29806,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemSettings: {fileID: 0}
   itemName: 
+  UseInventory: 0
+  Clicked: 0
+  BGIcon: {fileID: 0}
 --- !u!1 &800254331
 GameObject:
   m_ObjectHideFlags: 0
@@ -29676,10 +29844,10 @@ RectTransform:
   m_Father: {fileID: 611306958}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 252.99994, y: -33.39837}
+  m_SizeDelta: {x: 67.999985, y: 66.79674}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &800254333
 MonoBehaviour:
@@ -29727,7 +29895,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 903372937}
         m_TargetAssemblyTypeName: StorageManager, Assembly-CSharp
-        m_MethodName: ToStorage
+        m_MethodName: ToPlayer
         m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -29751,6 +29919,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemSettings: {fileID: 0}
   itemName: 
+  UseInventory: 0
+  Clicked: 0
+  BGIcon: {fileID: 0}
 --- !u!114 &800254335
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -29788,85 +29959,6 @@ CanvasRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 800254331}
-  m_CullTransparentMesh: 1
---- !u!1 &801260433
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 801260434}
-  - component: {fileID: 801260436}
-  - component: {fileID: 801260435}
-  m_Layer: 0
-  m_Name: Text
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &801260434
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 801260433}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 2132704118}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.000032425, y: -0.000032425}
-  m_SizeDelta: {x: 219, y: 219}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &801260435
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 801260433}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_FontData:
-    m_Font: {fileID: 12800000, guid: 54e82b4371d3f4a4db71f2be1df35bf5, type: 3}
-    m_FontSize: 14
-    m_FontStyle: 0
-    m_BestFit: 1
-    m_MinSize: 10
-    m_MaxSize: 100
-    m_Alignment: 4
-    m_AlignByGeometry: 0
-    m_RichText: 1
-    m_HorizontalOverflow: 0
-    m_VerticalOverflow: 0
-    m_LineSpacing: 1
-  m_Text: X
---- !u!222 &801260436
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 801260433}
   m_CullTransparentMesh: 1
 --- !u!1 &802848396
 GameObject:
@@ -30231,6 +30323,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemSettings: {fileID: 0}
   itemName: 
+  UseInventory: 0
+  Clicked: 0
+  BGIcon: {fileID: 0}
 --- !u!114 &813226131
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -30379,6 +30474,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemSettings: {fileID: 0}
   itemName: 
+  UseInventory: 0
+  Clicked: 0
+  BGIcon: {fileID: 0}
 --- !u!114 &818352705
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -30662,10 +30760,10 @@ RectTransform:
   m_Father: {fileID: 1819599248}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 411.12537, y: -43.59048}
+  m_SizeDelta: {x: 86.91675, y: 87.18096}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &823656231
 MonoBehaviour:
@@ -30681,6 +30779,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemSettings: {fileID: 0}
   itemName: 
+  UseInventory: 0
+  Clicked: 0
+  BGIcon: {fileID: 0}
 --- !u!114 &823656232
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -30724,19 +30825,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 823656233}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 903372937}
-        m_TargetAssemblyTypeName: StorageManager, Assembly-CSharp
-        m_MethodName: ToStorage
-        m_Mode: 3
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 8
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!114 &823656233
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -31343,10 +31432,10 @@ RectTransform:
   m_Father: {fileID: 1178533785}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 227.29187, y: -43.59048}
+  m_SizeDelta: {x: 86.91675, y: 87.18096}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &843301079
 MonoBehaviour:
@@ -31362,6 +31451,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemSettings: {fileID: 0}
   itemName: 
+  UseInventory: 0
+  Clicked: 0
+  BGIcon: {fileID: 0}
 --- !u!114 &843301080
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -31405,19 +31497,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 843301081}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 903372937}
-        m_TargetAssemblyTypeName: StorageManager, Assembly-CSharp
-        m_MethodName: ToStorage
-        m_Mode: 3
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 18
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!114 &843301081
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -31547,6 +31627,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemSettings: {fileID: 0}
   itemName: 
+  UseInventory: 0
+  Clicked: 0
+  BGIcon: {fileID: 0}
 --- !u!1 &845959499
 GameObject:
   m_ObjectHideFlags: 0
@@ -31713,6 +31796,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemSettings: {fileID: 0}
   itemName: 
+  UseInventory: 0
+  Clicked: 0
+  BGIcon: {fileID: 0}
 --- !u!1 &848600755
 GameObject:
   m_ObjectHideFlags: 0
@@ -32108,6 +32194,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemSettings: {fileID: 0}
   itemName: 
+  UseInventory: 0
+  Clicked: 0
+  BGIcon: {fileID: 0}
 --- !u!1 &876985732
 GameObject:
   m_ObjectHideFlags: 0
@@ -32553,6 +32642,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemSettings: {fileID: 0}
   itemName: 
+  UseInventory: 0
+  Clicked: 0
+  BGIcon: {fileID: 0}
 --- !u!1 &886073384
 GameObject:
   m_ObjectHideFlags: 0
@@ -32890,6 +32982,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemSettings: {fileID: 0}
   itemName: 
+  UseInventory: 0
+  Clicked: 0
+  BGIcon: {fileID: 0}
 --- !u!114 &895222382
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -33145,11 +33240,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4c495fc8ecd80794cb74e54b40ac27fe, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Exit: {fileID: 2132704121}
-  Wheel: {fileID: 1400511749}
-  Accelerator: {fileID: 1116733698}
   PlayerUI: {fileID: 1610282321}
   CarUI: {fileID: 637431755}
+  Wheel: {fileID: 1400511749}
+  Camera: {fileID: 0}
 --- !u!114 &903372936
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -33354,10 +33448,10 @@ RectTransform:
   m_Father: {fileID: 1034560028}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 179.99997, y: -33.39837}
+  m_SizeDelta: {x: 67.999985, y: 66.79674}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &908030767
 MonoBehaviour:
@@ -33405,7 +33499,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 903372937}
         m_TargetAssemblyTypeName: StorageManager, Assembly-CSharp
-        m_MethodName: ToStorage
+        m_MethodName: ToPlayer
         m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -33429,6 +33523,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemSettings: {fileID: 0}
   itemName: 
+  UseInventory: 0
+  Clicked: 0
+  BGIcon: {fileID: 0}
 --- !u!114 &908030769
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -34127,6 +34224,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemSettings: {fileID: 0}
   itemName: 
+  UseInventory: 0
+  Clicked: 0
+  BGIcon: {fileID: 0}
 --- !u!1 &946684179
 GameObject:
   m_ObjectHideFlags: 0
@@ -34364,6 +34464,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemSettings: {fileID: 0}
   itemName: 
+  UseInventory: 0
+  Clicked: 0
+  BGIcon: {fileID: 0}
 --- !u!1 &961063788
 GameObject:
   m_ObjectHideFlags: 0
@@ -34645,6 +34748,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemSettings: {fileID: 0}
   itemName: 
+  UseInventory: 0
+  Clicked: 0
+  BGIcon: {fileID: 0}
 --- !u!114 &966815900
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -34812,6 +34918,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemSettings: {fileID: 0}
   itemName: 
+  UseInventory: 0
+  Clicked: 0
+  BGIcon: {fileID: 0}
 --- !u!114 &968084568
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -34960,6 +35069,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemSettings: {fileID: 0}
   itemName: 
+  UseInventory: 0
+  Clicked: 0
+  BGIcon: {fileID: 0}
 --- !u!114 &971288458
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -35145,6 +35257,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemSettings: {fileID: 0}
   itemName: 
+  UseInventory: 0
+  Clicked: 0
+  BGIcon: {fileID: 0}
 --- !u!1 &971470863
 GameObject:
   m_ObjectHideFlags: 0
@@ -35200,6 +35315,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemSettings: {fileID: 0}
   itemName: 
+  UseInventory: 0
+  Clicked: 0
+  BGIcon: {fileID: 0}
 --- !u!114 &971470866
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -35576,6 +35694,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemSettings: {fileID: 0}
   itemName: 
+  UseInventory: 0
+  Clicked: 0
+  BGIcon: {fileID: 0}
 --- !u!114 &981264468
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -35761,6 +35882,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemSettings: {fileID: 0}
   itemName: 
+  UseInventory: 0
+  Clicked: 0
+  BGIcon: {fileID: 0}
 --- !u!1 &987551113
 GameObject:
   m_ObjectHideFlags: 0
@@ -35932,6 +36056,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemSettings: {fileID: 0}
   itemName: 
+  UseInventory: 0
+  Clicked: 0
+  BGIcon: {fileID: 0}
 --- !u!1 &992073813
 GameObject:
   m_ObjectHideFlags: 0
@@ -36706,10 +36833,10 @@ RectTransform:
   m_Father: {fileID: 2069005701}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 143.49997, y: -196.99185}
+  m_SizeDelta: {x: 286.99994, y: 66.79674}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1034560029
 MonoBehaviour:
@@ -37633,6 +37760,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemSettings: {fileID: 0}
   itemName: 
+  UseInventory: 0
+  Clicked: 0
+  BGIcon: {fileID: 0}
 --- !u!114 &1055326826
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -37937,6 +38067,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemSettings: {fileID: 0}
   itemName: 
+  UseInventory: 0
+  Clicked: 0
+  BGIcon: {fileID: 0}
 --- !u!114 &1068718797
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -38245,6 +38378,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemSettings: {fileID: 0}
   itemName: 
+  UseInventory: 0
+  Clicked: 0
+  BGIcon: {fileID: 0}
 --- !u!1 &1087813812
 GameObject:
   m_ObjectHideFlags: 0
@@ -38333,42 +38469,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1087813812}
   m_CullTransparentMesh: 1
---- !u!1 &1088742318
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1088742319}
-  m_Layer: 0
-  m_Name: Handle Slide Area
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &1088742319
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1088742318}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 591868941}
-  m_Father: {fileID: 1116733697}
-  m_RootOrder: 2
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -36.06494, y: 0}
-  m_SizeDelta: {x: -92.13, y: 0}
-  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1089569844
 GameObject:
   m_ObjectHideFlags: 0
@@ -38606,7 +38706,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 1141048447}
         m_TargetAssemblyTypeName: GameManager, Assembly-CSharp
         m_MethodName: ToggleUISection
         m_Mode: 3
@@ -38747,6 +38847,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemSettings: {fileID: 0}
   itemName: 
+  UseInventory: 0
+  Clicked: 0
+  BGIcon: {fileID: 0}
 --- !u!1 &1097640942
 GameObject:
   m_ObjectHideFlags: 0
@@ -39012,6 +39115,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemSettings: {fileID: 0}
   itemName: 
+  UseInventory: 0
+  Clicked: 0
+  BGIcon: {fileID: 0}
 --- !u!114 &1102516649
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -39353,6 +39459,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemSettings: {fileID: 0}
   itemName: 
+  UseInventory: 0
+  Clicked: 0
+  BGIcon: {fileID: 0}
 --- !u!114 &1106054195
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -39576,6 +39685,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemSettings: {fileID: 0}
   itemName: 
+  UseInventory: 0
+  Clicked: 0
+  BGIcon: {fileID: 0}
 --- !u!114 &1107933478
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -39705,10 +39817,10 @@ RectTransform:
   m_Father: {fileID: 1178533785}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 43.458374, y: -43.59048}
+  m_SizeDelta: {x: 86.91675, y: 87.18096}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1111799993
 MonoBehaviour:
@@ -39724,6 +39836,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemSettings: {fileID: 0}
   itemName: 
+  UseInventory: 0
+  Clicked: 0
+  BGIcon: {fileID: 0}
 --- !u!114 &1111799994
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -39767,19 +39882,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1111799995}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 903372937}
-        m_TargetAssemblyTypeName: StorageManager, Assembly-CSharp
-        m_MethodName: ToStorage
-        m_Mode: 3
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 16
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!114 &1111799995
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -39947,6 +40050,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemSettings: {fileID: 0}
   itemName: 
+  UseInventory: 0
+  Clicked: 0
+  BGIcon: {fileID: 0}
 --- !u!114 &1115597846
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -40041,96 +40147,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1115597843}
   m_CullTransparentMesh: 1
---- !u!1 &1116733696
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1116733697}
-  - component: {fileID: 1116733698}
-  m_Layer: 0
-  m_Name: Slider
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &1116733697
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1116733696}
-  m_LocalRotation: {x: 0, y: 0, z: 0.7071068, w: 0.7071068}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 1452142304}
-  - {fileID: 560097023}
-  - {fileID: 1088742319}
-  m_Father: {fileID: 637431756}
-  m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -836, y: -1}
-  m_SizeDelta: {x: -916.172, y: -900.988}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1116733698
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1116733696}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 67db9e8f0e2ae9c40bc1e2b64352a6b4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Navigation:
-    m_Mode: 3
-    m_WrapAround: 0
-    m_SelectOnUp: {fileID: 0}
-    m_SelectOnDown: {fileID: 0}
-    m_SelectOnLeft: {fileID: 0}
-    m_SelectOnRight: {fileID: 0}
-  m_Transition: 1
-  m_Colors:
-    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
-    m_HighlightedColor: {r: 1, g: 1, b: 1, a: 1}
-    m_PressedColor: {r: 1, g: 1, b: 1, a: 1}
-    m_SelectedColor: {r: 1, g: 1, b: 1, a: 1}
-    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
-    m_ColorMultiplier: 1
-    m_FadeDuration: 0.1
-  m_SpriteState:
-    m_HighlightedSprite: {fileID: 0}
-    m_PressedSprite: {fileID: 0}
-    m_SelectedSprite: {fileID: 0}
-    m_DisabledSprite: {fileID: 0}
-  m_AnimationTriggers:
-    m_NormalTrigger: Normal
-    m_HighlightedTrigger: Highlighted
-    m_PressedTrigger: Pressed
-    m_SelectedTrigger: Selected
-    m_DisabledTrigger: Disabled
-  m_Interactable: 1
-  m_TargetGraphic: {fileID: 591868942}
-  m_FillRect: {fileID: 1695962408}
-  m_HandleRect: {fileID: 591868941}
-  m_Direction: 0
-  m_MinValue: 0
-  m_MaxValue: 1
-  m_WholeNumbers: 0
-  m_Value: 0
-  m_OnValueChanged:
-    m_PersistentCalls:
-      m_Calls: []
 --- !u!1 &1118181011
 GameObject:
   m_ObjectHideFlags: 0
@@ -40299,139 +40315,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1119133771}
   m_CullTransparentMesh: 1
---- !u!1 &1119998506
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1119998507}
-  - component: {fileID: 1119998510}
-  - component: {fileID: 1119998509}
-  - component: {fileID: 1119998508}
-  m_Layer: 0
-  m_Name: Home Button
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &1119998507
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1119998506}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 2082264953}
-  m_Father: {fileID: 395457121}
-  m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1119998508
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1119998506}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Navigation:
-    m_Mode: 3
-    m_WrapAround: 0
-    m_SelectOnUp: {fileID: 0}
-    m_SelectOnDown: {fileID: 0}
-    m_SelectOnLeft: {fileID: 0}
-    m_SelectOnRight: {fileID: 0}
-  m_Transition: 1
-  m_Colors:
-    m_NormalColor: {r: 0.105882354, g: 0.105882354, b: 0.105882354, a: 1}
-    m_HighlightedColor: {r: 0.1254902, g: 0.1254902, b: 0.1254902, a: 1}
-    m_PressedColor: {r: 0.13725491, g: 0.13725491, b: 0.13725491, a: 1}
-    m_SelectedColor: {r: 0.105882354, g: 0.105882354, b: 0.105882354, a: 1}
-    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
-    m_ColorMultiplier: 1
-    m_FadeDuration: 0.1
-  m_SpriteState:
-    m_HighlightedSprite: {fileID: 0}
-    m_PressedSprite: {fileID: 0}
-    m_SelectedSprite: {fileID: 0}
-    m_DisabledSprite: {fileID: 0}
-  m_AnimationTriggers:
-    m_NormalTrigger: Normal
-    m_HighlightedTrigger: Highlighted
-    m_PressedTrigger: Pressed
-    m_SelectedTrigger: Selected
-    m_DisabledTrigger: Disabled
-  m_Interactable: 1
-  m_TargetGraphic: {fileID: 1119998509}
-  m_OnClick:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: InventorySlot, Assembly-CSharp
-        m_MethodName: 
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
---- !u!114 &1119998509
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1119998506}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 2658aca77a097824da7c866fe8fb6ea1, type: 3}
-  m_Type: 1
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 2
---- !u!222 &1119998510
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1119998506}
-  m_CullTransparentMesh: 1
 --- !u!1 &1123099826
 GameObject:
   m_ObjectHideFlags: 0
@@ -40486,6 +40369,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemSettings: {fileID: 0}
   itemName: 
+  UseInventory: 0
+  Clicked: 0
+  BGIcon: {fileID: 0}
 --- !u!114 &1123099829
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -40615,10 +40501,10 @@ RectTransform:
   m_Father: {fileID: 611306958}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 106.99998, y: -33.39837}
+  m_SizeDelta: {x: 67.999985, y: 66.79674}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1125475254
 MonoBehaviour:
@@ -40666,7 +40552,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 903372937}
         m_TargetAssemblyTypeName: StorageManager, Assembly-CSharp
-        m_MethodName: ToStorage
+        m_MethodName: ToPlayer
         m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -40690,6 +40576,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemSettings: {fileID: 0}
   itemName: 
+  UseInventory: 0
+  Clicked: 0
+  BGIcon: {fileID: 0}
 --- !u!114 &1125475256
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -41048,10 +40937,10 @@ RectTransform:
   m_Father: {fileID: 1387551843}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 503.0421, y: -43.59048}
+  m_SizeDelta: {x: 86.91675, y: 87.18096}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1131726966
 MonoBehaviour:
@@ -41067,6 +40956,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemSettings: {fileID: 0}
   itemName: 
+  UseInventory: 0
+  Clicked: 0
+  BGIcon: {fileID: 0}
 --- !u!114 &1131726967
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -41110,19 +41002,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1131726968}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 903372937}
-        m_TargetAssemblyTypeName: StorageManager, Assembly-CSharp
-        m_MethodName: ToStorage
-        m_Mode: 3
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 15
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!114 &1131726968
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -41291,6 +41171,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemSettings: {fileID: 0}
   itemName: 
+  UseInventory: 0
+  Clicked: 0
+  BGIcon: {fileID: 0}
 --- !u!114 &1138234714
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -41662,11 +41545,63 @@ MonoBehaviour:
     - {fileID: 1426497761}
     TradingPlayer: []
     TradingNPC: []
-    StoragePlayer: []
-    StorageContainer: []
+    StoragePlayer:
+    - {fileID: 278935143}
+    - {fileID: 11002207}
+    - {fileID: 1430861904}
+    - {fileID: 380972613}
+    - {fileID: 169930711}
+    - {fileID: 1710019579}
+    - {fileID: 279342982}
+    - {fileID: 1377917707}
+    - {fileID: 764332943}
+    - {fileID: 823656231}
+    - {fileID: 1710241093}
+    - {fileID: 680727470}
+    - {fileID: 282853618}
+    - {fileID: 55208065}
+    - {fileID: 1643150155}
+    - {fileID: 1265319716}
+    - {fileID: 1131726966}
+    - {fileID: 1111799993}
+    - {fileID: 681839184}
+    - {fileID: 843301079}
+    - {fileID: 1348522439}
+    - {fileID: 761052624}
+    - {fileID: 1641024130}
+    - {fileID: 2000708512}
+    - {fileID: 726658828}
+    - {fileID: 1145793843}
+    - {fileID: 164191036}
+    - {fileID: 1965694557}
+    StorageContainer:
+    - {fileID: 1997486095}
+    - {fileID: 1125475255}
+    - {fileID: 1492537261}
+    - {fileID: 800254334}
+    - {fileID: 1319881817}
+    - {fileID: 2009044958}
+    - {fileID: 377323562}
+    - {fileID: 572659576}
+    - {fileID: 1239324765}
+    - {fileID: 1553967697}
+    - {fileID: 908030768}
+    - {fileID: 95203595}
+    - {fileID: 485379256}
+    - {fileID: 99923550}
+    - {fileID: 1918249560}
+    - {fileID: 1834851486}
+    - {fileID: 1187141428}
+    - {fileID: 473393370}
+    - {fileID: 259593208}
+    - {fileID: 1963051201}
     UseBackgroundPanel: 1
     RecipesHolder: {fileID: 1329373019}
-    HighlightedUISections: []
+    HighlightedUISections:
+    - {fileID: 0}
+    - {fileID: 389597878}
+    - {fileID: 1621154171}
+    - {fileID: 664988259}
     EventSystem: {fileID: 291477431}
   Input: {fileID: 11400000, guid: e85591d1337168c42af152f130429431, type: 2}
   WorldSettings:
@@ -41729,6 +41664,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemSettings: {fileID: 0}
   itemName: 
+  UseInventory: 0
+  Clicked: 0
+  BGIcon: {fileID: 0}
 --- !u!114 &1142499279
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -42124,10 +42062,10 @@ RectTransform:
   m_Father: {fileID: 732718}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 227.29187, y: -43.59048}
+  m_SizeDelta: {x: 86.91675, y: 87.18096}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1145793843
 MonoBehaviour:
@@ -42143,6 +42081,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemSettings: {fileID: 0}
   itemName: 
+  UseInventory: 0
+  Clicked: 0
+  BGIcon: {fileID: 0}
 --- !u!114 &1145793844
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -42186,19 +42127,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1145793845}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 903372937}
-        m_TargetAssemblyTypeName: StorageManager, Assembly-CSharp
-        m_MethodName: ToStorage
-        m_Mode: 3
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 24
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!114 &1145793845
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -42423,6 +42352,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemSettings: {fileID: 0}
   itemName: 
+  UseInventory: 0
+  Clicked: 0
+  BGIcon: {fileID: 0}
 --- !u!114 &1156410700
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -42572,6 +42504,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemSettings: {fileID: 0}
   itemName: 
+  UseInventory: 0
+  Clicked: 0
+  BGIcon: {fileID: 0}
 --- !u!114 &1156728247
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -43045,6 +42980,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemSettings: {fileID: 0}
   itemName: 
+  UseInventory: 0
+  Clicked: 0
+  BGIcon: {fileID: 0}
 --- !u!114 &1171171879
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -43443,6 +43381,81 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1176147806}
   m_CullTransparentMesh: 1
+--- !u!1 &1177672530
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1177672531}
+  - component: {fileID: 1177672533}
+  - component: {fileID: 1177672532}
+  m_Layer: 0
+  m_Name: Image (6)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1177672531
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1177672530}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 169930710}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -0.000061035156, y: 0.055999756}
+  m_SizeDelta: {x: 80, y: 80}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1177672532
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1177672530}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 0
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 0}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 2
+--- !u!222 &1177672533
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1177672530}
+  m_CullTransparentMesh: 1
 --- !u!1 &1178533784
 GameObject:
   m_ObjectHideFlags: 0
@@ -43481,10 +43494,10 @@ RectTransform:
   m_Father: {fileID: 1025319393}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 293.25024, y: -340.13336}
+  m_SizeDelta: {x: 546.5005, y: 87.18096}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1178533786
 MonoBehaviour:
@@ -43630,10 +43643,10 @@ RectTransform:
   m_Father: {fileID: 40965491}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 33.999992, y: -33.39837}
+  m_SizeDelta: {x: 67.999985, y: 66.79674}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1187141427
 MonoBehaviour:
@@ -43681,7 +43694,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 903372937}
         m_TargetAssemblyTypeName: StorageManager, Assembly-CSharp
-        m_MethodName: ToStorage
+        m_MethodName: ToPlayer
         m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -43705,6 +43718,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemSettings: {fileID: 0}
   itemName: 
+  UseInventory: 0
+  Clicked: 0
+  BGIcon: {fileID: 0}
 --- !u!114 &1187141429
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -44571,6 +44587,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemSettings: {fileID: 0}
   itemName: 
+  UseInventory: 0
+  Clicked: 0
+  BGIcon: {fileID: 0}
 --- !u!1 &1224368156
 GameObject:
   m_ObjectHideFlags: 0
@@ -44970,6 +44989,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemSettings: {fileID: 0}
   itemName: 
+  UseInventory: 0
+  Clicked: 0
+  BGIcon: {fileID: 0}
 --- !u!1 &1233089330
 GameObject:
   m_ObjectHideFlags: 0
@@ -45359,10 +45381,10 @@ RectTransform:
   m_Father: {fileID: 1034560028}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 33.999992, y: -33.39837}
+  m_SizeDelta: {x: 67.999985, y: 66.79674}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1239324764
 MonoBehaviour:
@@ -45410,7 +45432,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 903372937}
         m_TargetAssemblyTypeName: StorageManager, Assembly-CSharp
-        m_MethodName: ToStorage
+        m_MethodName: ToPlayer
         m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -45434,6 +45456,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemSettings: {fileID: 0}
   itemName: 
+  UseInventory: 0
+  Clicked: 0
+  BGIcon: {fileID: 0}
 --- !u!114 &1239324766
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -45889,6 +45914,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemSettings: {fileID: 0}
   itemName: 
+  UseInventory: 0
+  Clicked: 0
+  BGIcon: {fileID: 0}
 --- !u!114 &1259716600
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -46149,6 +46177,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemSettings: {fileID: 0}
   itemName: 
+  UseInventory: 0
+  Clicked: 0
+  BGIcon: {fileID: 0}
 --- !u!224 &1263575246
 RectTransform:
   m_ObjectHideFlags: 0
@@ -46242,10 +46273,10 @@ RectTransform:
   m_Father: {fileID: 1387551843}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 411.12537, y: -43.59048}
+  m_SizeDelta: {x: 86.91675, y: 87.18096}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1265319716
 MonoBehaviour:
@@ -46261,6 +46292,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemSettings: {fileID: 0}
   itemName: 
+  UseInventory: 0
+  Clicked: 0
+  BGIcon: {fileID: 0}
 --- !u!114 &1265319717
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -46304,19 +46338,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1265319718}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 903372937}
-        m_TargetAssemblyTypeName: StorageManager, Assembly-CSharp
-        m_MethodName: ToStorage
-        m_Mode: 3
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 14
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!114 &1265319718
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -46410,6 +46432,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemSettings: {fileID: 0}
   itemName: 
+  UseInventory: 0
+  Clicked: 0
+  BGIcon: {fileID: 0}
 --- !u!114 &1273016794
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -46578,8 +46603,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0.0002231826, y: 0}
-  m_SizeDelta: {x: -0.00018311, y: -822.6891}
+  m_AnchoredPosition: {x: 0.0002231826, y: -0.0007324219}
+  m_SizeDelta: {x: -0.00018311, y: -1039.8188}
   m_Pivot: {x: 0, y: 1}
 --- !u!1 &1284048205
 GameObject:
@@ -46598,7 +46623,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1284048206
 RectTransform:
   m_ObjectHideFlags: 0
@@ -46749,6 +46774,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemSettings: {fileID: 0}
   itemName: 
+  UseInventory: 0
+  Clicked: 0
+  BGIcon: {fileID: 0}
 --- !u!1 &1288299380
 GameObject:
   m_ObjectHideFlags: 0
@@ -46840,6 +46868,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemSettings: {fileID: 0}
   itemName: 
+  UseInventory: 0
+  Clicked: 0
+  BGIcon: {fileID: 0}
 --- !u!1 &1291816784
 GameObject:
   m_ObjectHideFlags: 0
@@ -47339,6 +47370,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemSettings: {fileID: 0}
   itemName: 
+  UseInventory: 0
+  Clicked: 0
+  BGIcon: {fileID: 0}
 --- !u!114 &1306568998
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -47621,6 +47655,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemSettings: {fileID: 0}
   itemName: 
+  UseInventory: 0
+  Clicked: 0
+  BGIcon: {fileID: 0}
 --- !u!114 &1312832494
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -48047,6 +48084,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemSettings: {fileID: 0}
   itemName: 
+  UseInventory: 0
+  Clicked: 0
+  BGIcon: {fileID: 0}
 --- !u!1 &1319881814
 GameObject:
   m_ObjectHideFlags: 0
@@ -48082,10 +48122,10 @@ RectTransform:
   m_Father: {fileID: 321056272}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 33.999992, y: -33.39837}
+  m_SizeDelta: {x: 67.999985, y: 66.79674}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1319881816
 MonoBehaviour:
@@ -48133,7 +48173,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 903372937}
         m_TargetAssemblyTypeName: StorageManager, Assembly-CSharp
-        m_MethodName: ToStorage
+        m_MethodName: ToPlayer
         m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -48157,6 +48197,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemSettings: {fileID: 0}
   itemName: 
+  UseInventory: 0
+  Clicked: 0
+  BGIcon: {fileID: 0}
 --- !u!114 &1319881818
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -48250,6 +48293,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemSettings: {fileID: 0}
   itemName: 
+  UseInventory: 0
+  Clicked: 0
+  BGIcon: {fileID: 0}
 --- !u!114 &1320793466
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -48961,10 +49007,10 @@ RectTransform:
   m_Father: {fileID: 1178533785}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 319.20862, y: -43.59048}
+  m_SizeDelta: {x: 86.91675, y: 87.18096}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1348522439
 MonoBehaviour:
@@ -48980,6 +49026,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemSettings: {fileID: 0}
   itemName: 
+  UseInventory: 0
+  Clicked: 0
+  BGIcon: {fileID: 0}
 --- !u!114 &1348522440
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -49023,19 +49072,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1348522441}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 903372937}
-        m_TargetAssemblyTypeName: StorageManager, Assembly-CSharp
-        m_MethodName: ToStorage
-        m_Mode: 3
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 19
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!114 &1348522441
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -49504,6 +49541,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemSettings: {fileID: 0}
   itemName: 
+  UseInventory: 0
+  Clicked: 0
+  BGIcon: {fileID: 0}
 --- !u!114 &1361609847
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -49633,6 +49673,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemSettings: {fileID: 0}
   itemName: 
+  UseInventory: 0
+  Clicked: 0
+  BGIcon: {fileID: 0}
 --- !u!1 &1363332106
 GameObject:
   m_ObjectHideFlags: 0
@@ -49687,6 +49730,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemSettings: {fileID: 0}
   itemName: 
+  UseInventory: 0
+  Clicked: 0
+  BGIcon: {fileID: 0}
 --- !u!114 &1363332109
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -50201,10 +50247,10 @@ RectTransform:
   m_Father: {fileID: 1819599248}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 227.29187, y: -43.59048}
+  m_SizeDelta: {x: 86.91675, y: 87.18096}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1377917707
 MonoBehaviour:
@@ -50220,6 +50266,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemSettings: {fileID: 0}
   itemName: 
+  UseInventory: 0
+  Clicked: 0
+  BGIcon: {fileID: 0}
 --- !u!114 &1377917708
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -50263,19 +50312,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1377917709}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 903372937}
-        m_TargetAssemblyTypeName: StorageManager, Assembly-CSharp
-        m_MethodName: ToStorage
-        m_Mode: 3
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 6
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!114 &1377917709
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -50352,10 +50389,10 @@ RectTransform:
   m_Father: {fileID: 1025319393}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 293.25024, y: -247.95241}
+  m_SizeDelta: {x: 546.5005, y: 87.18096}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1387551844
 MonoBehaviour:
@@ -50615,6 +50652,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemSettings: {fileID: 0}
   itemName: 
+  UseInventory: 0
+  Clicked: 0
+  BGIcon: {fileID: 0}
 --- !u!1 &1388350272
 GameObject:
   m_ObjectHideFlags: 0
@@ -51135,8 +51175,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0}
   m_AnchorMax: {x: 1, y: 0}
-  m_AnchoredPosition: {x: -270, y: 269}
-  m_SizeDelta: {x: 500, y: 500}
+  m_AnchoredPosition: {x: -243, y: 249.49}
+  m_SizeDelta: {x: 400, y: 400}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1400511747
 MonoBehaviour:
@@ -51437,6 +51477,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemSettings: {fileID: 0}
   itemName: 
+  UseInventory: 0
+  Clicked: 0
+  BGIcon: {fileID: 0}
 --- !u!1 &1405655410
 GameObject:
   m_ObjectHideFlags: 0
@@ -51732,6 +51775,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemSettings: {fileID: 0}
   itemName: 
+  UseInventory: 0
+  Clicked: 0
+  BGIcon: {fileID: 0}
 --- !u!114 &1413526863
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -52050,6 +52096,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemSettings: {fileID: 0}
   itemName: 
+  UseInventory: 0
+  Clicked: 0
+  BGIcon: {fileID: 0}
 --- !u!1 &1424127420
 GameObject:
   m_ObjectHideFlags: 0
@@ -52294,6 +52343,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemSettings: {fileID: 0}
   itemName: 
+  UseInventory: 0
+  Clicked: 0
+  BGIcon: {fileID: 0}
 --- !u!114 &1426497762
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -52386,6 +52438,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemSettings: {fileID: 0}
   itemName: 
+  UseInventory: 0
+  Clicked: 0
+  BGIcon: {fileID: 0}
 --- !u!114 &1428306848
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -52513,12 +52568,12 @@ RectTransform:
   m_Children:
   - {fileID: 1433085894}
   m_Father: {fileID: 395457121}
-  m_RootOrder: 4
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 319.20862, y: -43.59048}
+  m_SizeDelta: {x: 86.91675, y: 87.18096}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1430861904
 MonoBehaviour:
@@ -52534,6 +52589,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemSettings: {fileID: 0}
   itemName: 
+  UseInventory: 0
+  Clicked: 0
+  BGIcon: {fileID: 0}
 --- !u!114 &1430861905
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -52577,19 +52635,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1430861906}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 903372937}
-        m_TargetAssemblyTypeName: StorageManager, Assembly-CSharp
-        m_MethodName: ToStorage
-        m_Mode: 3
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 2
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!114 &1430861906
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -53154,6 +53200,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemSettings: {fileID: 0}
   itemName: 
+  UseInventory: 0
+  Clicked: 0
+  BGIcon: {fileID: 0}
 --- !u!1 &1450702290
 GameObject:
   m_ObjectHideFlags: 0
@@ -53287,6 +53336,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemSettings: {fileID: 0}
   itemName: 
+  UseInventory: 0
+  Clicked: 0
+  BGIcon: {fileID: 0}
 --- !u!114 &1452107445
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -53381,81 +53433,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1452107442}
   m_CullTransparentMesh: 1
---- !u!1 &1452142303
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1452142304}
-  - component: {fileID: 1452142306}
-  - component: {fileID: 1452142305}
-  m_Layer: 0
-  m_Name: Background
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &1452142304
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1452142303}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 1116733697}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0.25}
-  m_AnchorMax: {x: 1, y: 0.75}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 14.959}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1452142305
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1452142303}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 0.1254902, g: 0.1254902, b: 0.1254902, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 2658aca77a097824da7c866fe8fb6ea1, type: 3}
-  m_Type: 1
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
---- !u!222 &1452142306
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1452142303}
-  m_CullTransparentMesh: 0
 --- !u!1 &1455941738
 GameObject:
   m_ObjectHideFlags: 0
@@ -53816,6 +53793,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemSettings: {fileID: 0}
   itemName: 
+  UseInventory: 0
+  Clicked: 0
+  BGIcon: {fileID: 0}
 --- !u!1 &1463200179
 GameObject:
   m_ObjectHideFlags: 0
@@ -53946,6 +53926,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemSettings: {fileID: 0}
   itemName: 
+  UseInventory: 0
+  Clicked: 0
+  BGIcon: {fileID: 0}
 --- !u!114 &1463378487
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -54339,6 +54322,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemSettings: {fileID: 0}
   itemName: 
+  UseInventory: 0
+  Clicked: 0
+  BGIcon: {fileID: 0}
 --- !u!1 &1475136626
 GameObject:
   m_ObjectHideFlags: 0
@@ -54479,6 +54465,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemSettings: {fileID: 0}
   itemName: 
+  UseInventory: 0
+  Clicked: 0
+  BGIcon: {fileID: 0}
 --- !u!224 &1481802331
 RectTransform:
   m_ObjectHideFlags: 0
@@ -54737,6 +54726,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemSettings: {fileID: 0}
   itemName: 
+  UseInventory: 0
+  Clicked: 0
+  BGIcon: {fileID: 0}
 --- !u!114 &1485613359
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -55247,10 +55239,10 @@ RectTransform:
   m_Father: {fileID: 611306958}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 179.99997, y: -33.39837}
+  m_SizeDelta: {x: 67.999985, y: 66.79674}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1492537260
 MonoBehaviour:
@@ -55298,7 +55290,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 903372937}
         m_TargetAssemblyTypeName: StorageManager, Assembly-CSharp
-        m_MethodName: ToStorage
+        m_MethodName: ToPlayer
         m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -55322,6 +55314,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemSettings: {fileID: 0}
   itemName: 
+  UseInventory: 0
+  Clicked: 0
+  BGIcon: {fileID: 0}
 --- !u!114 &1492537262
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -55684,6 +55679,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemSettings: {fileID: 0}
   itemName: 
+  UseInventory: 0
+  Clicked: 0
+  BGIcon: {fileID: 0}
 --- !u!114 &1515447156
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -55889,6 +55887,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemSettings: {fileID: 0}
   itemName: 
+  UseInventory: 0
+  Clicked: 0
+  BGIcon: {fileID: 0}
 --- !u!114 &1515941484
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -56133,6 +56134,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemSettings: {fileID: 0}
   itemName: 
+  UseInventory: 0
+  Clicked: 0
+  BGIcon: {fileID: 0}
 --- !u!114 &1524965948
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -56413,6 +56417,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemSettings: {fileID: 0}
   itemName: 
+  UseInventory: 0
+  Clicked: 0
+  BGIcon: {fileID: 0}
 --- !u!114 &1533189959
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -56731,6 +56738,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemSettings: {fileID: 0}
   itemName: 
+  UseInventory: 0
+  Clicked: 0
+  BGIcon: {fileID: 0}
 --- !u!114 &1549844410
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -56879,6 +56889,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemSettings: {fileID: 0}
   itemName: 
+  UseInventory: 0
+  Clicked: 0
+  BGIcon: {fileID: 0}
 --- !u!114 &1552825025
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -57008,10 +57021,10 @@ RectTransform:
   m_Father: {fileID: 1034560028}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 106.99998, y: -33.39837}
+  m_SizeDelta: {x: 67.999985, y: 66.79674}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1553967696
 MonoBehaviour:
@@ -57059,7 +57072,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 903372937}
         m_TargetAssemblyTypeName: StorageManager, Assembly-CSharp
-        m_MethodName: ToStorage
+        m_MethodName: ToPlayer
         m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -57083,6 +57096,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemSettings: {fileID: 0}
   itemName: 
+  UseInventory: 0
+  Clicked: 0
+  BGIcon: {fileID: 0}
 --- !u!114 &1553967698
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -57175,6 +57191,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemSettings: {fileID: 0}
   itemName: 
+  UseInventory: 0
+  Clicked: 0
+  BGIcon: {fileID: 0}
 --- !u!114 &1555715058
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -57664,6 +57683,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemSettings: {fileID: 0}
   itemName: 
+  UseInventory: 0
+  Clicked: 0
+  BGIcon: {fileID: 0}
 --- !u!1 &1571692040
 GameObject:
   m_ObjectHideFlags: 0
@@ -57793,6 +57815,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemSettings: {fileID: 0}
   itemName: 
+  UseInventory: 0
+  Clicked: 0
+  BGIcon: {fileID: 0}
 --- !u!114 &1571979854
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -58016,6 +58041,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemSettings: {fileID: 0}
   itemName: 
+  UseInventory: 0
+  Clicked: 0
+  BGIcon: {fileID: 0}
 --- !u!114 &1574674653
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -58752,6 +58780,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemSettings: {fileID: 0}
   itemName: 
+  UseInventory: 0
+  Clicked: 0
+  BGIcon: {fileID: 0}
 --- !u!114 &1581568202
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -59122,6 +59153,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemSettings: {fileID: 0}
   itemName: 
+  UseInventory: 0
+  Clicked: 0
+  BGIcon: {fileID: 0}
 --- !u!1 &1593840533
 GameObject:
   m_ObjectHideFlags: 0
@@ -59138,7 +59172,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1593840534
 RectTransform:
   m_ObjectHideFlags: 0
@@ -59338,6 +59372,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemSettings: {fileID: 0}
   itemName: 
+  UseInventory: 0
+  Clicked: 0
+  BGIcon: {fileID: 0}
 --- !u!1 &1608821218
 GameObject:
   m_ObjectHideFlags: 0
@@ -59486,7 +59523,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1610282322
 RectTransform:
   m_ObjectHideFlags: 0
@@ -59699,6 +59736,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemSettings: {fileID: 0}
   itemName: 
+  UseInventory: 0
+  Clicked: 0
+  BGIcon: {fileID: 0}
 --- !u!114 &1620617708
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -59846,10 +59886,10 @@ RectTransform:
   m_Father: {fileID: 395457121}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 43.458374, y: -43.59048}
+  m_SizeDelta: {x: 86.91675, y: 87.18096}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1621154173
 MonoBehaviour:
@@ -59895,10 +59935,10 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: GameManager, Assembly-CSharp
-        m_MethodName: ToggleUISection
-        m_Mode: 3
+      - m_Target: {fileID: 903372937}
+        m_TargetAssemblyTypeName: StorageManager, Assembly-CSharp
+        m_MethodName: StopInteractWithStorage
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -60469,6 +60509,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemSettings: {fileID: 0}
   itemName: 
+  UseInventory: 0
+  Clicked: 0
+  BGIcon: {fileID: 0}
 --- !u!1 &1636278632
 GameObject:
   m_ObjectHideFlags: 0
@@ -60579,10 +60622,10 @@ RectTransform:
   m_Father: {fileID: 1178533785}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 503.0421, y: -43.59048}
+  m_SizeDelta: {x: 86.91675, y: 87.18096}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1641024130
 MonoBehaviour:
@@ -60598,6 +60641,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemSettings: {fileID: 0}
   itemName: 
+  UseInventory: 0
+  Clicked: 0
+  BGIcon: {fileID: 0}
 --- !u!114 &1641024131
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -60641,19 +60687,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1641024132}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 903372937}
-        m_TargetAssemblyTypeName: StorageManager, Assembly-CSharp
-        m_MethodName: ToStorage
-        m_Mode: 3
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 21
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!114 &1641024132
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -60727,10 +60761,10 @@ RectTransform:
   m_Father: {fileID: 1387551843}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 319.20862, y: -43.59048}
+  m_SizeDelta: {x: 86.91675, y: 87.18096}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1643150155
 MonoBehaviour:
@@ -60746,6 +60780,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemSettings: {fileID: 0}
   itemName: 
+  UseInventory: 0
+  Clicked: 0
+  BGIcon: {fileID: 0}
 --- !u!114 &1643150156
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -60789,19 +60826,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1643150157}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 903372937}
-        m_TargetAssemblyTypeName: StorageManager, Assembly-CSharp
-        m_MethodName: ToStorage
-        m_Mode: 3
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 13
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!114 &1643150157
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -61197,6 +61222,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemSettings: {fileID: 0}
   itemName: 
+  UseInventory: 0
+  Clicked: 0
+  BGIcon: {fileID: 0}
 --- !u!1 &1648633938
 GameObject:
   m_ObjectHideFlags: 0
@@ -61518,6 +61546,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemSettings: {fileID: 0}
   itemName: 
+  UseInventory: 0
+  Clicked: 0
+  BGIcon: {fileID: 0}
 --- !u!1 &1662717333
 GameObject:
   m_ObjectHideFlags: 0
@@ -61647,6 +61678,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemSettings: {fileID: 0}
   itemName: 
+  UseInventory: 0
+  Clicked: 0
+  BGIcon: {fileID: 0}
 --- !u!114 &1667152809
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -62078,6 +62112,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemSettings: {fileID: 0}
   itemName: 
+  UseInventory: 0
+  Clicked: 0
+  BGIcon: {fileID: 0}
 --- !u!114 &1677447291
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -62170,6 +62207,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemSettings: {fileID: 0}
   itemName: 
+  UseInventory: 0
+  Clicked: 0
+  BGIcon: {fileID: 0}
 --- !u!114 &1677808192
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -62781,6 +62821,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemSettings: {fileID: 0}
   itemName: 
+  UseInventory: 0
+  Clicked: 0
+  BGIcon: {fileID: 0}
 --- !u!114 &1690867794
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -62875,81 +62918,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1690867791}
   m_CullTransparentMesh: 1
---- !u!1 &1695962407
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1695962408}
-  - component: {fileID: 1695962410}
-  - component: {fileID: 1695962409}
-  m_Layer: 0
-  m_Name: Fill
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &1695962408
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1695962407}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 560097023}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 10, y: 0}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1695962409
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1695962407}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 0.1254902, g: 0.1254902, b: 0.1254902, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 2658aca77a097824da7c866fe8fb6ea1, type: 3}
-  m_Type: 1
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
---- !u!222 &1695962410
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1695962407}
-  m_CullTransparentMesh: 0
 --- !u!1 &1700472518
 GameObject:
   m_ObjectHideFlags: 0
@@ -63041,6 +63009,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemSettings: {fileID: 0}
   itemName: 
+  UseInventory: 0
+  Clicked: 0
+  BGIcon: {fileID: 0}
 --- !u!1 &1700594805
 GameObject:
   m_ObjectHideFlags: 0
@@ -63170,6 +63141,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemSettings: {fileID: 0}
   itemName: 
+  UseInventory: 0
+  Clicked: 0
+  BGIcon: {fileID: 0}
 --- !u!114 &1701517225
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -63488,6 +63462,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemSettings: {fileID: 0}
   itemName: 
+  UseInventory: 0
+  Clicked: 0
+  BGIcon: {fileID: 0}
 --- !u!1 &1704330474
 GameObject:
   m_ObjectHideFlags: 0
@@ -63543,6 +63520,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemSettings: {fileID: 0}
   itemName: 
+  UseInventory: 0
+  Clicked: 0
+  BGIcon: {fileID: 0}
 --- !u!114 &1704330477
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -63670,7 +63650,7 @@ Transform:
   - {fileID: 1074981666}
   - {fileID: 1648633939}
   m_Father: {fileID: 0}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1710019577
 GameObject:
@@ -63707,10 +63687,10 @@ RectTransform:
   m_Father: {fileID: 1819599248}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 43.458374, y: -43.59048}
+  m_SizeDelta: {x: 86.91675, y: 87.18096}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1710019579
 MonoBehaviour:
@@ -63726,6 +63706,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemSettings: {fileID: 0}
   itemName: 
+  UseInventory: 0
+  Clicked: 0
+  BGIcon: {fileID: 0}
 --- !u!114 &1710019580
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -63769,19 +63752,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1710019581}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 903372937}
-        m_TargetAssemblyTypeName: StorageManager, Assembly-CSharp
-        m_MethodName: ToStorage
-        m_Mode: 3
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 4
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!114 &1710019581
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -63855,10 +63826,10 @@ RectTransform:
   m_Father: {fileID: 1819599248}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 503.0421, y: -43.59048}
+  m_SizeDelta: {x: 86.91675, y: 87.18096}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1710241093
 MonoBehaviour:
@@ -63874,6 +63845,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemSettings: {fileID: 0}
   itemName: 
+  UseInventory: 0
+  Clicked: 0
+  BGIcon: {fileID: 0}
 --- !u!114 &1710241094
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -63917,19 +63891,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1710241095}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 903372937}
-        m_TargetAssemblyTypeName: StorageManager, Assembly-CSharp
-        m_MethodName: ToStorage
-        m_Mode: 3
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 9
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!114 &1710241095
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -64079,6 +64041,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemSettings: {fileID: 0}
   itemName: 
+  UseInventory: 0
+  Clicked: 0
+  BGIcon: {fileID: 0}
 --- !u!114 &1710525345
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -64172,6 +64137,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemSettings: {fileID: 0}
   itemName: 
+  UseInventory: 0
+  Clicked: 0
+  BGIcon: {fileID: 0}
 --- !u!114 &1711870525
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -64275,7 +64243,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 4677075159593081371, guid: 479c94c3806ed4e4886785e47fbb8694, type: 3}
       propertyPath: m_RootOrder
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4677075159593081371, guid: 479c94c3806ed4e4886785e47fbb8694, type: 3}
       propertyPath: m_LocalPosition.x
@@ -64382,6 +64350,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemSettings: {fileID: 0}
   itemName: 
+  UseInventory: 0
+  Clicked: 0
+  BGIcon: {fileID: 0}
 --- !u!114 &1715750228
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -64663,6 +64634,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemSettings: {fileID: 0}
   itemName: 
+  UseInventory: 0
+  Clicked: 0
+  BGIcon: {fileID: 0}
 --- !u!114 &1732799869
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -65309,6 +65283,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemSettings: {fileID: 0}
   itemName: 
+  UseInventory: 0
+  Clicked: 0
+  BGIcon: {fileID: 0}
 --- !u!114 &1751246342
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -65438,6 +65415,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemSettings: {fileID: 0}
   itemName: 
+  UseInventory: 0
+  Clicked: 0
+  BGIcon: {fileID: 0}
 --- !u!1 &1761552809
 GameObject:
   m_ObjectHideFlags: 0
@@ -66135,6 +66115,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemSettings: {fileID: 0}
   itemName: 
+  UseInventory: 0
+  Clicked: 0
+  BGIcon: {fileID: 0}
 --- !u!1 &1787034865
 GameObject:
   m_ObjectHideFlags: 0
@@ -66832,6 +66815,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemSettings: {fileID: 0}
   itemName: 
+  UseInventory: 0
+  Clicked: 0
+  BGIcon: {fileID: 0}
 --- !u!114 &1802330407
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -67398,6 +67384,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemSettings: {fileID: 0}
   itemName: 
+  UseInventory: 0
+  Clicked: 0
+  BGIcon: {fileID: 0}
 --- !u!1 &1819599247
 GameObject:
   m_ObjectHideFlags: 0
@@ -67436,10 +67425,10 @@ RectTransform:
   m_Father: {fileID: 1025319393}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 293.25024, y: -155.77144}
+  m_SizeDelta: {x: 546.5005, y: 87.18096}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1819599249
 MonoBehaviour:
@@ -67529,6 +67518,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemSettings: {fileID: 0}
   itemName: 
+  UseInventory: 0
+  Clicked: 0
+  BGIcon: {fileID: 0}
 --- !u!114 &1824139070
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -67796,6 +67788,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemSettings: {fileID: 0}
   itemName: 
+  UseInventory: 0
+  Clicked: 0
+  BGIcon: {fileID: 0}
 --- !u!1 &1830436475
 GameObject:
   m_ObjectHideFlags: 0
@@ -67887,6 +67882,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemSettings: {fileID: 0}
   itemName: 
+  UseInventory: 0
+  Clicked: 0
+  BGIcon: {fileID: 0}
 --- !u!1 &1834851483
 GameObject:
   m_ObjectHideFlags: 0
@@ -67922,10 +67920,10 @@ RectTransform:
   m_Father: {fileID: 377129280}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 252.99994, y: -33.39837}
+  m_SizeDelta: {x: 67.999985, y: 66.79674}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1834851485
 MonoBehaviour:
@@ -67973,7 +67971,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 903372937}
         m_TargetAssemblyTypeName: StorageManager, Assembly-CSharp
-        m_MethodName: ToStorage
+        m_MethodName: ToPlayer
         m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -67997,6 +67995,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemSettings: {fileID: 0}
   itemName: 
+  UseInventory: 0
+  Clicked: 0
+  BGIcon: {fileID: 0}
 --- !u!114 &1834851487
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -68259,6 +68260,97 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemSettings: {fileID: 0}
   itemName: 
+  UseInventory: 0
+  Clicked: 0
+  BGIcon: {fileID: 0}
+--- !u!1 &1838664423
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1838664424}
+  - component: {fileID: 1838664427}
+  - component: {fileID: 1838664426}
+  - component: {fileID: 1838664425}
+  m_Layer: 0
+  m_Name: Brake
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!224 &1838664424
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1838664423}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 637431756}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0}
+  m_AnchorMax: {x: 0.5, y: 0}
+  m_AnchoredPosition: {x: -532.6, y: 174.49}
+  m_SizeDelta: {x: 250, y: 250}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1838664425
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1838664423}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a021852acbb51ac4999fae4927f80cda, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1838664426
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1838664423}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.105882354, g: 0.105882354, b: 0.105882354, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: 2db225ab0fe5e604a8b7a227f6b31274, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &1838664427
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1838664423}
+  m_CullTransparentMesh: 1
 --- !u!1 &1840113306
 GameObject:
   m_ObjectHideFlags: 0
@@ -68494,10 +68586,10 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: GameManager, Assembly-CSharp
-        m_MethodName: ToggleUISection
-        m_Mode: 3
+      - m_Target: {fileID: 903372937}
+        m_TargetAssemblyTypeName: StorageManager, Assembly-CSharp
+        m_MethodName: StopInteractWithStorage
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -68742,7 +68834,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!222 &1852530605
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -68830,6 +68922,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemSettings: {fileID: 0}
   itemName: 
+  UseInventory: 0
+  Clicked: 0
+  BGIcon: {fileID: 0}
 --- !u!114 &1853455546
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -69218,6 +69313,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemSettings: {fileID: 0}
   itemName: 
+  UseInventory: 0
+  Clicked: 0
+  BGIcon: {fileID: 0}
 --- !u!114 &1862752220
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -69366,6 +69464,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemSettings: {fileID: 0}
   itemName: 
+  UseInventory: 0
+  Clicked: 0
+  BGIcon: {fileID: 0}
 --- !u!114 &1862974136
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -70801,6 +70902,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemSettings: {fileID: 0}
   itemName: 
+  UseInventory: 0
+  Clicked: 0
+  BGIcon: {fileID: 0}
 --- !u!114 &1906346323
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -71025,6 +71129,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemSettings: {fileID: 0}
   itemName: 
+  UseInventory: 0
+  Clicked: 0
+  BGIcon: {fileID: 0}
 --- !u!114 &1918111406
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -71154,10 +71261,10 @@ RectTransform:
   m_Father: {fileID: 377129280}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 179.99997, y: -33.39837}
+  m_SizeDelta: {x: 67.999985, y: 66.79674}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1918249559
 MonoBehaviour:
@@ -71205,7 +71312,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 903372937}
         m_TargetAssemblyTypeName: StorageManager, Assembly-CSharp
-        m_MethodName: ToStorage
+        m_MethodName: ToPlayer
         m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -71229,6 +71336,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemSettings: {fileID: 0}
   itemName: 
+  UseInventory: 0
+  Clicked: 0
+  BGIcon: {fileID: 0}
 --- !u!114 &1918249561
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -71710,6 +71820,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemSettings: {fileID: 0}
   itemName: 
+  UseInventory: 0
+  Clicked: 0
+  BGIcon: {fileID: 0}
 --- !u!1 &1935329805
 GameObject:
   m_ObjectHideFlags: 0
@@ -72340,6 +72453,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemSettings: {fileID: 0}
   itemName: 
+  UseInventory: 0
+  Clicked: 0
+  BGIcon: {fileID: 0}
 --- !u!1 &1947825502
 GameObject:
   m_ObjectHideFlags: 0
@@ -72469,6 +72585,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemSettings: {fileID: 0}
   itemName: 
+  UseInventory: 0
+  Clicked: 0
+  BGIcon: {fileID: 0}
 --- !u!114 &1950085929
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -72617,6 +72736,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemSettings: {fileID: 0}
   itemName: 
+  UseInventory: 0
+  Clicked: 0
+  BGIcon: {fileID: 0}
 --- !u!114 &1958732332
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -72892,10 +73014,10 @@ RectTransform:
   m_Father: {fileID: 40965491}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 252.99994, y: -33.39837}
+  m_SizeDelta: {x: 67.999985, y: 66.79674}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1963051200
 MonoBehaviour:
@@ -72943,7 +73065,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 903372937}
         m_TargetAssemblyTypeName: StorageManager, Assembly-CSharp
-        m_MethodName: ToStorage
+        m_MethodName: ToPlayer
         m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -72967,6 +73089,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemSettings: {fileID: 0}
   itemName: 
+  UseInventory: 0
+  Clicked: 0
+  BGIcon: {fileID: 0}
 --- !u!114 &1963051202
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -73135,6 +73260,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemSettings: {fileID: 0}
   itemName: 
+  UseInventory: 0
+  Clicked: 0
+  BGIcon: {fileID: 0}
 --- !u!114 &1963890099
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -73264,10 +73392,10 @@ RectTransform:
   m_Father: {fileID: 732718}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 411.12537, y: -43.59048}
+  m_SizeDelta: {x: 86.91675, y: 87.18096}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1965694557
 MonoBehaviour:
@@ -73283,6 +73411,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemSettings: {fileID: 0}
   itemName: 
+  UseInventory: 0
+  Clicked: 0
+  BGIcon: {fileID: 0}
 --- !u!114 &1965694558
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -73326,19 +73457,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1965694559}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 903372937}
-        m_TargetAssemblyTypeName: StorageManager, Assembly-CSharp
-        m_MethodName: ToStorage
-        m_Mode: 3
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 26
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!114 &1965694559
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -73840,6 +73959,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemSettings: {fileID: 0}
   itemName: 
+  UseInventory: 0
+  Clicked: 0
+  BGIcon: {fileID: 0}
 --- !u!114 &1978302543
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -74560,10 +74682,10 @@ RectTransform:
   m_Father: {fileID: 611306958}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 33.999992, y: -33.39837}
+  m_SizeDelta: {x: 67.999985, y: 66.79674}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1997486094
 MonoBehaviour:
@@ -74611,7 +74733,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 903372937}
         m_TargetAssemblyTypeName: StorageManager, Assembly-CSharp
-        m_MethodName: ToStorage
+        m_MethodName: ToPlayer
         m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -74635,6 +74757,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemSettings: {fileID: 0}
   itemName: 
+  UseInventory: 0
+  Clicked: 0
+  BGIcon: {fileID: 0}
 --- !u!114 &1997486096
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -74708,10 +74833,10 @@ RectTransform:
   m_Father: {fileID: 732718}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 43.458374, y: -43.59048}
+  m_SizeDelta: {x: 86.91675, y: 87.18096}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2000708512
 MonoBehaviour:
@@ -74727,6 +74852,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemSettings: {fileID: 0}
   itemName: 
+  UseInventory: 0
+  Clicked: 0
+  BGIcon: {fileID: 0}
 --- !u!114 &2000708513
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -74770,19 +74898,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 2000708514}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 903372937}
-        m_TargetAssemblyTypeName: StorageManager, Assembly-CSharp
-        m_MethodName: ToStorage
-        m_Mode: 3
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 22
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!114 &2000708514
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -74932,6 +75048,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemSettings: {fileID: 0}
   itemName: 
+  UseInventory: 0
+  Clicked: 0
+  BGIcon: {fileID: 0}
 --- !u!114 &2006479752
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -75005,10 +75124,10 @@ RectTransform:
   m_Father: {fileID: 321056272}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 106.99998, y: -33.39837}
+  m_SizeDelta: {x: 67.999985, y: 66.79674}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2009044957
 MonoBehaviour:
@@ -75056,7 +75175,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 903372937}
         m_TargetAssemblyTypeName: StorageManager, Assembly-CSharp
-        m_MethodName: ToStorage
+        m_MethodName: ToPlayer
         m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -75080,6 +75199,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemSettings: {fileID: 0}
   itemName: 
+  UseInventory: 0
+  Clicked: 0
+  BGIcon: {fileID: 0}
 --- !u!114 &2009044959
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -75711,6 +75833,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemSettings: {fileID: 0}
   itemName: 
+  UseInventory: 0
+  Clicked: 0
+  BGIcon: {fileID: 0}
 --- !u!1 &2026575813
 GameObject:
   m_ObjectHideFlags: 0
@@ -76899,6 +77024,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemSettings: {fileID: 0}
   itemName: 
+  UseInventory: 0
+  Clicked: 0
+  BGIcon: {fileID: 0}
 --- !u!114 &2057759000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -77159,81 +77287,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemSettings: {fileID: 0}
   itemName: 
---- !u!1 &2068808329
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 2068808330}
-  - component: {fileID: 2068808332}
-  - component: {fileID: 2068808331}
-  m_Layer: 0
-  m_Name: Image (6)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &2068808330
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2068808329}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 499431175}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.000061035156, y: 0.055999756}
-  m_SizeDelta: {x: 80, y: 80}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &2068808331
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2068808329}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 0
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Sprite: {fileID: 0}
-  m_Type: 1
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 2
---- !u!222 &2068808332
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2068808329}
-  m_CullTransparentMesh: 1
+  UseInventory: 0
+  Clicked: 0
+  BGIcon: {fileID: 0}
 --- !u!1 &2069005700
 GameObject:
   m_ObjectHideFlags: 0
@@ -77596,85 +77652,6 @@ CanvasRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2082078135}
-  m_CullTransparentMesh: 1
---- !u!1 &2082264952
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 2082264953}
-  - component: {fileID: 2082264955}
-  - component: {fileID: 2082264954}
-  m_Layer: 0
-  m_Name: Image (6)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &2082264953
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2082264952}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 1119998507}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.00018310547, y: 0.055908203}
-  m_SizeDelta: {x: 40, y: 40}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &2082264954
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2082264952}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_FontData:
-    m_Font: {fileID: 12800000, guid: a7b5588c47336d742bb326b6ebe685c9, type: 3}
-    m_FontSize: 14
-    m_FontStyle: 0
-    m_BestFit: 1
-    m_MinSize: 10
-    m_MaxSize: 100
-    m_Alignment: 4
-    m_AlignByGeometry: 0
-    m_RichText: 1
-    m_HorizontalOverflow: 0
-    m_VerticalOverflow: 0
-    m_LineSpacing: 1
-  m_Text: X
---- !u!222 &2082264955
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2082264952}
   m_CullTransparentMesh: 1
 --- !u!1 &2082446686
 GameObject:
@@ -78591,6 +78568,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemSettings: {fileID: 0}
   itemName: 
+  UseInventory: 0
+  Clicked: 0
+  BGIcon: {fileID: 0}
 --- !u!114 &2117456187
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -78770,8 +78750,8 @@ GameObject:
   m_Component:
   - component: {fileID: 2132704118}
   - component: {fileID: 2132704120}
-  - component: {fileID: 2132704119}
   - component: {fileID: 2132704121}
+  - component: {fileID: 2132704119}
   m_Layer: 0
   m_Name: Image
   m_TagString: Untagged
@@ -78789,15 +78769,14 @@ RectTransform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 801260434}
+  m_Children: []
   m_Father: {fileID: 637431756}
-  m_RootOrder: 2
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 830.5, y: 413}
-  m_SizeDelta: {x: 219, y: 219}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 101, y: -101}
+  m_SizeDelta: {x: 150, y: 150}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2132704119
 MonoBehaviour:
@@ -78808,7 +78787,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 2132704117}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
@@ -78819,16 +78798,20 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 2658aca77a097824da7c866fe8fb6ea1, type: 3}
-  m_Type: 1
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
+  m_FontData:
+    m_Font: {fileID: 12800000, guid: a7b5588c47336d742bb326b6ebe685c9, type: 3}
+    m_FontSize: 14
+    m_FontStyle: 0
+    m_BestFit: 1
+    m_MinSize: 10
+    m_MaxSize: 200
+    m_Alignment: 4
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: X
 --- !u!222 &2132704120
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -78858,7 +78841,7 @@ MonoBehaviour:
     m_SelectOnRight: {fileID: 0}
   m_Transition: 1
   m_Colors:
-    m_NormalColor: {r: 0.078431375, g: 0.078431375, b: 0.078431375, a: 1}
+    m_NormalColor: {r: 0.105882354, g: 0.105882354, b: 0.105882354, a: 1}
     m_HighlightedColor: {r: 0.105882354, g: 0.105882354, b: 0.105882354, a: 1}
     m_PressedColor: {r: 0.1254902, g: 0.1254902, b: 0.1254902, a: 1}
     m_SelectedColor: {r: 0.078431375, g: 0.078431375, b: 0.078431375, a: 1}
@@ -78877,10 +78860,22 @@ MonoBehaviour:
     m_SelectedTrigger: Selected
     m_DisabledTrigger: Disabled
   m_Interactable: 1
-  m_TargetGraphic: {fileID: 1646233703}
+  m_TargetGraphic: {fileID: 2132704119}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 903372935}
+        m_TargetAssemblyTypeName: CarManager, Assembly-CSharp
+        m_MethodName: ExitCar
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &2134756560
 GameObject:
   m_ObjectHideFlags: 0
@@ -79313,6 +79308,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemSettings: {fileID: 0}
   itemName: 
+  UseInventory: 0
+  Clicked: 0
+  BGIcon: {fileID: 0}
 --- !u!1 &2144607422
 GameObject:
   m_ObjectHideFlags: 0

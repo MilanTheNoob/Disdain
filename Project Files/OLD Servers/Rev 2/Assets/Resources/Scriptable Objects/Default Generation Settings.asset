@@ -1,0 +1,142 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 521e3750e049f7a4fa5422e305cae1f2, type: 3}
+  m_Name: Default Generation Settings
+  m_EditorClassIdentifier: 
+  Biomes:
+  - BiomeName: 
+    RainfallCenter: -0.5
+    MinRainfall: -1
+    MaxRainFall: 0
+    PropTypes:
+    - ID: 
+      Props:
+      - {fileID: 11400000, guid: 29336d7b6473d7e4495bb192fa774361, type: 2}
+    HeightMaps:
+    - Name: 
+      NoiseSetting:
+        scale: 0
+        octaves: 6
+        persistance: 0.362
+        lacunarity: 1.7
+        seed: 0
+        offset: {x: 0, y: 0}
+      heightMultiplier: 200
+      heightCurve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 1
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 34
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 34
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 0
+      ChanceUse: 0
+      UseChance: 0
+  - BiomeName: 
+    RainfallCenter: 0.5
+    MinRainfall: 0
+    MaxRainFall: 1
+    PropTypes:
+    - ID: 
+      Props: []
+    HeightMaps:
+    - Name: 
+      NoiseSetting:
+        scale: 0
+        octaves: 1
+        persistance: 0.448
+        lacunarity: 1.7
+        seed: 0
+        offset: {x: 0, y: 0}
+      heightMultiplier: 10
+      heightCurve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 1
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 34
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 34
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 0
+      ChanceUse: 0
+      UseChance: 0
+  HeightMaps:
+  - Name: Minor Elevation
+    NoiseSetting:
+      scale: 30
+      octaves: 1
+      persistance: 0.44
+      lacunarity: 1.7
+      seed: 0
+      offset: {x: 0, y: 0}
+    heightMultiplier: 10
+    heightCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 34
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 34
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 0
+    ChanceUse: 0
+    UseChance: 0
+  MeshSetting:
+    ySize: 75
+    meshScale: 1
+    ChunkSize: 64

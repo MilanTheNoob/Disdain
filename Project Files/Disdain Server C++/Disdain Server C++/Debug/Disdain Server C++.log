@@ -1,0 +1,4 @@
+﻿  Server.cpp
+C:\Users\milan\source\repos\Disdain Server C++\Disdain Server C++\Server.cpp(16,1): warning C4326: return type of 'main' should be 'int' instead of 'void'
+Server.obj : error LNK2005: "void __cdecl onConnect_handle(struct Client,struct Packet)" (?onConnect_handle@@YAXUClient@@UPacket@@@Z) already defined in Handle.obj
+C:\Users\milan\source\repos\Disdain Server C++\Debug\Disdain Server C++.exe : fatal error LNK1169: one or more multiply defined symbols found
