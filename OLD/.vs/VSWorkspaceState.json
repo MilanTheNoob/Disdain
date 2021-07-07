@@ -1,0 +1,16 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\Assets",
+    "\\Assets\\Resources",
+    "\\Assets\\Resources\\Scriptable Objects",
+    "\\Assets\\Resources\\Scriptable Objects\\Map Generation",
+    "\\Assets\\Resources\\Scriptable Objects\\Map Generation\\Scripts",
+    "\\Assets\\Resources\\Scripts",
+    "\\Assets\\Resources\\Scripts\\Managers",
+    "\\Assets\\Resources\\Scripts\\Map Generation",
+    "\\Assets\\Resources\\Scripts\\Server Scripts"
+  ],
+  "SelectedNode": "\\Assets\\Resources\\Scripts\\Server Scripts\\NetworkManager.cs",
+  "PreviewInSolutionExplorer": false
+}

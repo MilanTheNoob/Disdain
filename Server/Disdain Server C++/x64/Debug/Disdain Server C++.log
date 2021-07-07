@@ -1,0 +1,4 @@
+﻿  Server.cpp
+C:\Users\milan\Documents\GitHub\LATEST-Disdain\Project Files\Disdain Server C++\Disdain Server C++\Server.cpp(187,1): warning C4326: return type of 'main' should be 'int' instead of 'void'
+C:\Users\milan\Documents\GitHub\LATEST-Disdain\Project Files\Disdain Server C++\Disdain Server C++\Server.cpp(226,49): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+  Disdain Server C++.vcxproj -> C:\Users\milan\Documents\GitHub\LATEST-Disdain\Project Files\Disdain Server C++\x64\Debug\Disdain Server C++.exe
