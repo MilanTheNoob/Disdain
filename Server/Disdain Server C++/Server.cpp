@@ -7,10 +7,12 @@
 
 #include "Client.h"
 #include "Packet.h"
+#include "ServerSettings.h"
+#include "Math.h"
+#include "SaveFile.h"
 
+#include "Generation.cpp"
 #pragma comment (lib, "ws2_32.lib")
-
-using namespace std;
 
 const int max_threads = 64;
 const int thread_size = 64;
@@ -19,62 +21,146 @@ const int port = 26951;
 const int recv_buffer = 4096;
 const int send_buffer = 16384;
 
-const string client_typeVersion = "Closed Proof Of Concept";
-const int client_mainVersion = 1;
-const int client_contentVersion = 1;
-const int client_bugfixVersion = 1;
-
 int currentThreadCount = 0;
 bool running = true;
 
 std::map<SOCKET, Client> clients;
 timeval select_interval;
 
-#pragma region Send
+GenerateData generate_data = GenerateData(true);
+GenerateData temp_gd = GenerateData(false);
 
-void onConnect_send(Client client)
-{
-	Packet packet = Packet(true, 1);
-	packet.Write(client.client_id);
-	send(client.socket, packet.buffer, packet.readPos, 0);
-}
+#pragma region Send
 
 void launcherData_send(Client client, int m_version, int c_version, int b_version)
 {
-	Packet packet = Packet(true, 2);
+	Packet packet = Packet();
+	packet.Write((uint8_t)2);
 
 	bool update = false;
-	if (m_version != client_mainVersion) update = true;
-	if (c_version != client_contentVersion) update = true;
-	if (b_version != client_bugfixVersion) update = true;
+	if (m_version != 1) update = true;
+	if (c_version != 1) update = true;
+	if (b_version != 1) update = true;
 	packet.Write(update);
 
 	if (update)
 	{
-		packet.Write(client_typeVersion);
-		packet.Write(client_mainVersion);
-		packet.Write(client_contentVersion);
-		packet.Write(client_bugfixVersion);
+		packet.Write("Proof Of Concept");
+		packet.Write(1);
+		packet.Write(1);
+		packet.Write(1);
 	}
 
 	packet.Write(0); // Todo : Add patch notes & news here
-	std::cout << "pls" << std::endl;
-	send(client.socket, packet.buffer, 4096, 0);
+	send(client.socket, packet.buffer, send_buffer, 0);
+}
+
+void backend_preview_send(Client client, uint8_t size)
+{
+	if (!client.is_backend) return;
+
+	size = Clamp_8(size, 0, 100);
+	int i = 0;
+
+	Packet packet = Packet();
+	packet.Write((uint8_t)12);
+
+	packet.Write(size);
+	packet.Write(temp_gd.chunk_size);
+
+	for (uint8_t x = 0; x < size; x++)
+	{
+		for (uint8_t y = 0; y < size; y++)
+		{
+			packet.Write(x);
+			packet.Write(y);
+			
+			uint16_t* heightmap = GenerateHeightmap(temp_gd, x, y, 0);
+			int n = 0;
+
+			for (uint8_t z = 0; z < temp_gd.chunk_size; z++)
+			{
+				for (uint8_t w = 0; w < temp_gd.chunk_size; w++)
+				{
+					packet.Write(heightmap[n]);
+					n++;
+				}
+			}
+		}
+	}
+
+	send(client.socket, packet.buffer, send_buffer, 0);
 }
 
 #pragma endregion
-
 #pragma region Handle
 
-void onConnect_handle(Client client, Packet packet)
+void on_connect_handle(Client client, Packet packet)
 {
 	std::cout << "Client " << client.client_id << "has authenticated its connection." << endl;
 	client.connection_state = 1;
 }
 
-void launcherData_handle(Client client, Packet packet)
+void launcher_data_handle(Client client, Packet packet)
 {
 	launcherData_send(client, packet.ReadInt(), packet.ReadInt(), packet.ReadInt());
+}
+
+void backend_login_handle(Client client, Packet packet)
+{
+	if (packet.ReadString() == "11ac1c39-1957-44c0-aa3e-2ed005581592" &&
+		packet.ReadString() == "PragmaticMilan85$")
+	{
+		cout << "Client " << client.client_id << " is now a backend client" << endl;
+
+		Packet sendPacket = Packet();
+		sendPacket.Write((uint8_t)11);
+		sendPacket.Write(true);
+
+		generate_data.Serialize(sendPacket);
+		send(client.socket, sendPacket.buffer, send_buffer, 0);
+
+		client.is_backend = true;
+	}
+	else
+	{
+		cout << "Client " << client.client_id << " has tried and failed to login as a backend client. Kicking" << endl;
+
+		// UN IMPLEMENTED
+	}
+}
+
+void backend_preview_handle(Client client, Packet packet)
+{
+	if (!client.is_backend) return;
+
+	temp_gd = GenerateData(packet);
+	backend_preview_send(client, packet.ReadChar());
+}
+
+void backend_save_handle(Client client, Packet packet)
+{
+	if (temp_gd.initialized && client.is_backend)
+	{
+		generate_data = temp_gd;
+
+		Packet packet = Packet();
+		generate_data.Serialize(packet);
+
+		FILE* stream;
+		int response = fopen_s(&stream, "generateData.txt", "wb");
+
+		if (response == 0)
+		{
+			fwrite(packet.buffer, 1, packet.readPos, stream);
+		}
+		else
+		{
+			std::cout << "Failed to write new generate data to file!" << std::endl;
+		}
+
+		if (stream) fclose(stream);
+	}
 }
 
 #pragma endregion
@@ -145,7 +231,7 @@ void* socket_thread(void* arg)
 		for (int i = 0; i < socketCount; i++)
 		{
 			SOCKET sock = readfds.fd_array[i];
-			Packet packet = Packet(false, 0);
+			Packet packet = Packet();
 
 			int bytesIn = recv(sock, packet.buffer, 4096, 0);
 			if (bytesIn <= 0) 
@@ -163,8 +249,10 @@ void* socket_thread(void* arg)
 			{
 				switch (packet.ReadInt())
 				{
-				case 1: onConnect_handle(clients[sock], packet); break; // OnConnect
-				case 2: launcherData_handle(clients[sock], packet); break; // Launcher Data
+				case 1: on_connect_handle(clients[sock], packet); break; // On Connect
+				case 2: launcher_data_handle(clients[sock], packet); break; // Launcher Data
+				case 13: backend_login_handle(clients[sock], packet); break; // Backend Login
+				case 14: backend_preview_handle(clients[sock], packet); break; // Backend Preview
 				}
 			}
 		}
@@ -184,6 +272,26 @@ void* socket_thread(void* arg)
 
 void main()
 {
+	FILE* stream;
+	int response = fopen_s(&stream, "generateData.txt", "rb");
+
+	if (response == 0)
+	{
+		Packet packet = Packet();
+		fread(packet.buffer, 1, send_buffer, stream);
+
+		if (ftell(stream) < 5)
+		{
+			cout << "No generate data available, using defaults" << endl;
+		}
+	}
+	else
+	{
+		std::cout << "Failed to write new generate data to file!" << std::endl;
+	}
+
+	if (stream) fclose(stream);
+
  	pthread_t threads[max_threads];
 	ThreadData thread_data[max_threads];
 
@@ -218,15 +326,13 @@ void main()
 
 			SOCKET socket = accept(listening, nullptr, nullptr);
 
-			Packet packet = Packet(true, 1);
+			Packet packet = Packet();
+			packet.Write((uint8_t)1);
 			packet.Write((int)clients.size());
 			send(socket, packet.buffer, 4096, 0);
 
 			Client client = Client(clients.size(), socket);
 			clients.insert(std::make_pair(socket, client));
-
-			
-			//onConnect_send(client);
 
 			std::cout << "Client " << client.client_id << " has been connected. Adding to a thread..." << std::endl;
 

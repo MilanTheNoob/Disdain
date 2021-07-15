@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+[CreateAssetMenu(menuName = "New Generation Settings")]
 public class GenerationSettings : UpdatableData
 {
 	[Header("Biomes")]
@@ -56,7 +57,7 @@ public class HeightMapSettings
 [System.Serializable]
 public class MeshSettings
 {
-	public float ySize = 75f;
+	//public float ySize = 75f;
 	public float meshScale = 2.5f;
 	public int ChunkSize = 64;
 

@@ -19,6 +19,9 @@
     <Filter Include="Header Files\Containers">
       <UniqueIdentifier>{c6cc0a2b-bcfd-4ca1-9d2b-81f7a8490a59}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Header Files\Libraries">
+      <UniqueIdentifier>{ae07a2fc-2127-43e4-bab1-e88cb67ec14a}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Server.cpp">
@@ -26,6 +29,9 @@
     </ClCompile>
     <ClCompile Include="Client.h">
       <Filter>Header Files\Containers</Filter>
+    </ClCompile>
+    <ClCompile Include="Generation.cpp">
+      <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -35,11 +41,19 @@
     <ClInclude Include="Packet.h">
       <Filter>Header Files\Containers</Filter>
     </ClInclude>
-    <ClInclude Include="WorldFile.h">
-      <Filter>Header Files\Containers</Filter>
-    </ClInclude>
     <ClInclude Include="SaveFile.h">
       <Filter>Header Files\Containers</Filter>
     </ClInclude>
+    <ClInclude Include="ServerSettings.h">
+      <Filter>Header Files\Containers</Filter>
+    </ClInclude>
+    <ClInclude Include="Math.h">
+      <Filter>Header Files\Libraries</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="generateData.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
   </ItemGroup>
 </Project>

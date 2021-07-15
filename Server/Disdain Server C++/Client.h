@@ -10,6 +10,7 @@ public:
 	Client(int _client_id, SOCKET _socket)
 	{
 		initialized = true;
+		is_backend = false;
 
 		client_id = _client_id;
 		socket = _socket;
@@ -19,6 +20,7 @@ public:
 	}
 
 	bool initialized;
+	bool is_backend;
 	int client_id;
 	int thread;
 	int thread_id;

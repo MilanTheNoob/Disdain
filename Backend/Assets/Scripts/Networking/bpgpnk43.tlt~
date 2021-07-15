@@ -1,0 +1,21 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class Handle : MonoBehaviour
+{
+    public static void OnConnect(Packet packet) { }
+    public static void BackendLogin(Packet packet)
+    {
+        print("RLY BRO?");
+        if (packet.ReadBool())
+        {
+            print("BRO!");
+            MenuManager.instance.SwitchTab(1);
+        }
+        else
+        {
+            print("FFS");
+        }
+    }
+}
