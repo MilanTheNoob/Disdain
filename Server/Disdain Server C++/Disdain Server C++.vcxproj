@@ -141,19 +141,26 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Client.h" />
-    <ClCompile Include="Generation.cpp" />
-    <ClCompile Include="Server.cpp" />
+    <ClCompile Include="client.h" />
+    <ClCompile Include="server.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Math.h" />
-    <ClInclude Include="SaveFile.h" />
-    <ClInclude Include="ServerSettings.h" />
-    <ClInclude Include="Vectors.h" />
-    <ClInclude Include="Packet.h" />
+    <ClInclude Include="chunk_data.h" />
+    <ClInclude Include="heightmap_gen.h" />
+    <ClInclude Include="handle.h" />
+    <ClInclude Include="math.h" />
+    <ClInclude Include="prop_gen.h" />
+    <ClInclude Include="random.h" />
+    <ClInclude Include="simplex_noise.h" />
+    <ClInclude Include="send.h" />
+    <ClInclude Include="generate_data.h" />
+    <ClInclude Include="threading.h" />
+    <ClInclude Include="vectors.h" />
+    <ClInclude Include="packet.h" />
+    <ClInclude Include="weighting.h" />
   </ItemGroup>
   <ItemGroup>
-    <Text Include="generateData.txt" />
+    <Text Include="generate_data.txt" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

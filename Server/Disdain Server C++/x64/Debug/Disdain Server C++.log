@@ -1,8 +1,43 @@
-﻿  Generation.cpp
-C:\Users\Milan\Desktop\LATEST-Disdain\Server\Disdain Server C++\Packet.h(26,35): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
-  Server.cpp
-C:\Users\Milan\Desktop\LATEST-Disdain\Server\Disdain Server C++\Packet.h(26,35): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
-C:\Users\Milan\Desktop\LATEST-Disdain\Server\Disdain Server C++\Server.cpp(274,1): warning C4326: return type of 'main' should be 'int' instead of 'void'
-C:\Users\Milan\Desktop\LATEST-Disdain\Server\Disdain Server C++\Server.cpp(334,49): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+﻿  client.h
+C:\Users\Milan\Desktop\LATEST-Disdain\Server\Disdain Server C++\packet.h(47,1): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  server.cpp
+C:\Users\Milan\Desktop\LATEST-Disdain\Server\Disdain Server C++\packet.h(47,1): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\Milan\Desktop\LATEST-Disdain\Server\Disdain Server C++\generate_data.h(69,1): warning C4267: '+=': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\Milan\Desktop\LATEST-Disdain\Server\Disdain Server C++\generate_data.h(227,49): warning C4244: 'argument': conversion from 'float' to 'uint8_t', possible loss of data
+C:\Users\Milan\Desktop\LATEST-Disdain\Server\Disdain Server C++\generate_data.h(241,1): warning C4267: 'argument': conversion from 'size_t' to 'uint8_t', possible loss of data
+C:\Users\Milan\Desktop\LATEST-Disdain\Server\Disdain Server C++\heightmap_gen.h(14,27): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\Milan\Desktop\LATEST-Disdain\Server\Disdain Server C++\heightmap_gen.h(25,80): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\Milan\Desktop\LATEST-Disdain\Server\Disdain Server C++\heightmap_gen.h(25,59): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\Milan\Desktop\LATEST-Disdain\Server\Disdain Server C++\heightmap_gen.h(45,54): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\Milan\Desktop\LATEST-Disdain\Server\Disdain Server C++\heightmap_gen.h(45,33): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\Milan\Desktop\LATEST-Disdain\Server\Disdain Server C++\heightmap_gen.h(59,56): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\Milan\Desktop\LATEST-Disdain\Server\Disdain Server C++\heightmap_gen.h(59,35): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\Milan\Desktop\LATEST-Disdain\Server\Disdain Server C++\heightmap_gen.h(61,70): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\Milan\Desktop\LATEST-Disdain\Server\Disdain Server C++\heightmap_gen.h(61,64): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\Milan\Desktop\LATEST-Disdain\Server\Disdain Server C++\prop_gen.h(40,50): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\Milan\Desktop\LATEST-Disdain\Server\Disdain Server C++\prop_gen.h(40,29): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\Milan\Desktop\LATEST-Disdain\Server\Disdain Server C++\prop_gen.h(41,50): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\Milan\Desktop\LATEST-Disdain\Server\Disdain Server C++\prop_gen.h(41,29): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\Milan\Desktop\LATEST-Disdain\Server\Disdain Server C++\prop_gen.h(42,50): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\Milan\Desktop\LATEST-Disdain\Server\Disdain Server C++\prop_gen.h(42,29): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\Milan\Desktop\LATEST-Disdain\Server\Disdain Server C++\prop_gen.h(44,48): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\Milan\Desktop\LATEST-Disdain\Server\Disdain Server C++\prop_gen.h(44,26): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\Milan\Desktop\LATEST-Disdain\Server\Disdain Server C++\prop_gen.h(44,61): warning C4244: '=': conversion from 'float' to 'uint8_t', possible loss of data
+C:\Users\Milan\Desktop\LATEST-Disdain\Server\Disdain Server C++\prop_gen.h(60,47): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\Milan\Desktop\LATEST-Disdain\Server\Disdain Server C++\prop_gen.h(60,42): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\Milan\Desktop\LATEST-Disdain\Server\Disdain Server C++\prop_gen.h(61,6): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\Milan\Desktop\LATEST-Disdain\Server\Disdain Server C++\prop_gen.h(63,60): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\Milan\Desktop\LATEST-Disdain\Server\Disdain Server C++\prop_gen.h(63,53): warning C4244: 'argument': conversion from 'unsigned __int64' to 'float', possible loss of data
+C:\Users\Milan\Desktop\LATEST-Disdain\Server\Disdain Server C++\prop_gen.h(70,19): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+C:\Users\Milan\Desktop\LATEST-Disdain\Server\Disdain Server C++\prop_gen.h(96,69): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\Milan\Desktop\LATEST-Disdain\Server\Disdain Server C++\prop_gen.h(96,60): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\Milan\Desktop\LATEST-Disdain\Server\Disdain Server C++\chunk_data.h(58,1): warning C4267: 'argument': conversion from 'size_t' to 'uint16_t', possible loss of data
+C:\Users\Milan\Desktop\LATEST-Disdain\Server\Disdain Server C++\chunk_data.h(85,25): warning C4305: 'initializing': truncation from '__int64' to 'int'
+C:\Users\Milan\Desktop\LATEST-Disdain\Server\Disdain Server C++\chunk_data.h(85,13): warning C4309: 'initializing': truncation of constant value
+C:\Users\Milan\Desktop\LATEST-Disdain\Server\Disdain Server C++\chunk_data.h(96,40): warning C4267: 'argument': conversion from 'size_t' to 'uint16_t', possible loss of data
+C:\Users\Milan\Desktop\LATEST-Disdain\Server\Disdain Server C++\server.cpp(26,1): warning C4326: return type of 'main' should be 'int' instead of 'void'
+C:\Users\Milan\Desktop\LATEST-Disdain\Server\Disdain Server C++\server.cpp(75,53): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\Milan\Desktop\LATEST-Disdain\Server\Disdain Server C++\server.cpp(78,43): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\Milan\Desktop\LATEST-Disdain\Server\Disdain Server C++\server.cpp(99,43): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
   Generating Code...
   Disdain Server C++.vcxproj -> C:\Users\Milan\Desktop\LATEST-Disdain\Server\x64\Debug\Disdain Server C++.exe

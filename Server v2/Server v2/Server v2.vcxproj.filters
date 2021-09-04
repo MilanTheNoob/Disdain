@@ -1,0 +1,145 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\libraries">
+      <UniqueIdentifier>{078c1e39-3d09-47f9-93f0-b00bcac00358}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\libraries\common">
+      <UniqueIdentifier>{aa9aa52f-0870-4186-8217-43774b82c98c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\libraries\server funcs">
+      <UniqueIdentifier>{dbb82b16-0a0a-4b3a-95d3-7eb10e5259a3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\libraries\procedural gen">
+      <UniqueIdentifier>{e8ff36be-3537-4e27-9290-64a4ed60afe1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\containers">
+      <UniqueIdentifier>{be2c27b2-4027-47fb-a3ab-9cf3c4fa8a0f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\containers\gen">
+      <UniqueIdentifier>{77857b8c-a3ed-4c84-8187-e66fcb0d4cec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\containers\player">
+      <UniqueIdentifier>{295b3b95-e69f-402e-931c-32ccd2f41e7c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\threads">
+      <UniqueIdentifier>{d9f9d53c-aa06-4bb6-9ad4-9ac34233e2cc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\libraries\game functions">
+      <UniqueIdentifier>{0457ff92-9bac-4865-96fa-320e1469f624}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="server.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="chunk_data.h">
+      <Filter>Header Files\containers\gen</Filter>
+    </ClInclude>
+    <ClInclude Include="generate_data.h">
+      <Filter>Header Files\containers\gen</Filter>
+    </ClInclude>
+    <ClInclude Include="packet.h">
+      <Filter>Header Files\containers</Filter>
+    </ClInclude>
+    <ClInclude Include="vectors.h">
+      <Filter>Header Files\containers</Filter>
+    </ClInclude>
+    <ClInclude Include="math.h">
+      <Filter>Header Files\libraries\common</Filter>
+    </ClInclude>
+    <ClInclude Include="random.h">
+      <Filter>Header Files\libraries\common</Filter>
+    </ClInclude>
+    <ClInclude Include="weighting.h">
+      <Filter>Header Files\libraries\common</Filter>
+    </ClInclude>
+    <ClInclude Include="heightmap_gen.h">
+      <Filter>Header Files\libraries\procedural gen</Filter>
+    </ClInclude>
+    <ClInclude Include="prop_gen.h">
+      <Filter>Header Files\libraries\procedural gen</Filter>
+    </ClInclude>
+    <ClInclude Include="simplex_noise.h">
+      <Filter>Header Files\libraries\procedural gen</Filter>
+    </ClInclude>
+    <ClInclude Include="handle.h">
+      <Filter>Header Files\libraries\server funcs</Filter>
+    </ClInclude>
+    <ClInclude Include="send.h">
+      <Filter>Header Files\libraries\server funcs</Filter>
+    </ClInclude>
+    <ClInclude Include="file.h">
+      <Filter>Header Files\libraries\common</Filter>
+    </ClInclude>
+    <ClInclude Include="client.h">
+      <Filter>Header Files\containers\player</Filter>
+    </ClInclude>
+    <ClInclude Include="account_data.h">
+      <Filter>Header Files\containers\player</Filter>
+    </ClInclude>
+    <ClInclude Include="lobby_data.h">
+      <Filter>Header Files\containers\gen</Filter>
+    </ClInclude>
+    <ClInclude Include="collision.h">
+      <Filter>Header Files\libraries</Filter>
+    </ClInclude>
+    <ClInclude Include="server_data.h">
+      <Filter>Header Files\containers</Filter>
+    </ClInclude>
+    <ClInclude Include="socket_thread.h">
+      <Filter>Header Files\threads</Filter>
+    </ClInclude>
+    <ClInclude Include="game_thread.h">
+      <Filter>Header Files\threads</Filter>
+    </ClInclude>
+    <ClInclude Include="player.h">
+      <Filter>Header Files\containers\player</Filter>
+    </ClInclude>
+    <ClInclude Include="lobby_collisions.h">
+      <Filter>Header Files\libraries\game functions</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="generate_data.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="player_data.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="lobby_data.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="6285.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="4921.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="7301.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="0213.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="3054.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+</Project>

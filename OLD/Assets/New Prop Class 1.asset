@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 84cdbaff987d5794184c56f54dfaeae2, type: 3}
-  m_Name: New Prop Class
+  m_Name: New Prop Class 1
   m_EditorClassIdentifier: 
   ID: 0
   MinRot: {x: 0, y: 0, z: 0}

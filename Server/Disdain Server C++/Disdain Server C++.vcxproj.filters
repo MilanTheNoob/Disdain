@@ -13,46 +13,76 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
-    <Filter Include="Header Files\Numerics &amp; Storage">
-      <UniqueIdentifier>{658910f6-8035-4f94-90fa-7dfcf89b84a2}</UniqueIdentifier>
-    </Filter>
     <Filter Include="Header Files\Containers">
       <UniqueIdentifier>{c6cc0a2b-bcfd-4ca1-9d2b-81f7a8490a59}</UniqueIdentifier>
     </Filter>
     <Filter Include="Header Files\Libraries">
       <UniqueIdentifier>{ae07a2fc-2127-43e4-bab1-e88cb67ec14a}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Header Files\Libraries\common">
+      <UniqueIdentifier>{41d0f072-fcf1-4c74-8a03-8da6c69b3db0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Libraries\procedural gen">
+      <UniqueIdentifier>{7d6bbf4a-a0aa-47da-b7c2-8e037c4e383a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Libraries\server funcs">
+      <UniqueIdentifier>{b0882509-ac0f-44b8-b209-97b940c381a8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Containers\generation">
+      <UniqueIdentifier>{fc1294ab-58d7-4a1e-a187-3460677efe5b}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Server.cpp">
+    <ClCompile Include="server.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Client.h">
+    <ClCompile Include="client.h">
       <Filter>Header Files\Containers</Filter>
-    </ClCompile>
-    <ClCompile Include="Generation.cpp">
-      <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Vectors.h">
-      <Filter>Header Files\Numerics &amp; Storage</Filter>
+    <ClInclude Include="heightmap_gen.h">
+      <Filter>Header Files\Libraries\procedural gen</Filter>
     </ClInclude>
-    <ClInclude Include="Packet.h">
+    <ClInclude Include="math.h">
+      <Filter>Header Files\Libraries\common</Filter>
+    </ClInclude>
+    <ClInclude Include="send.h">
+      <Filter>Header Files\Libraries\server funcs</Filter>
+    </ClInclude>
+    <ClInclude Include="handle.h">
+      <Filter>Header Files\Libraries\server funcs</Filter>
+    </ClInclude>
+    <ClInclude Include="simplex_noise.h">
+      <Filter>Header Files\Libraries\procedural gen</Filter>
+    </ClInclude>
+    <ClInclude Include="packet.h">
       <Filter>Header Files\Containers</Filter>
     </ClInclude>
-    <ClInclude Include="SaveFile.h">
+    <ClInclude Include="vectors.h">
       <Filter>Header Files\Containers</Filter>
     </ClInclude>
-    <ClInclude Include="ServerSettings.h">
-      <Filter>Header Files\Containers</Filter>
+    <ClInclude Include="threading.h">
+      <Filter>Header Files\Libraries\server funcs</Filter>
     </ClInclude>
-    <ClInclude Include="Math.h">
-      <Filter>Header Files\Libraries</Filter>
+    <ClInclude Include="generate_data.h">
+      <Filter>Header Files\Containers\generation</Filter>
+    </ClInclude>
+    <ClInclude Include="chunk_data.h">
+      <Filter>Header Files\Containers\generation</Filter>
+    </ClInclude>
+    <ClInclude Include="prop_gen.h">
+      <Filter>Header Files\Libraries\procedural gen</Filter>
+    </ClInclude>
+    <ClInclude Include="weighting.h">
+      <Filter>Header Files\Libraries\common</Filter>
+    </ClInclude>
+    <ClInclude Include="random.h">
+      <Filter>Header Files\Libraries\common</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <Text Include="generateData.txt">
+    <Text Include="generate_data.txt">
       <Filter>Resource Files</Filter>
     </Text>
   </ItemGroup>

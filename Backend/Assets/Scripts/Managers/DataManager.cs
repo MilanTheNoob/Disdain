@@ -1,6 +1,5 @@
 using System.Collections;
 using System.Collections.Generic;
-using UnityEngine.SceneManagement;
 using UnityEngine;
 using System.Net.Sockets;
 using System;
@@ -14,34 +13,34 @@ public class DataManager : MonoBehaviour
 
     #endregion
 
-    delegate void PacketHandler(Packet packet);
-    static Dictionary<byte, PacketHandler> packetHandlers;
-
     public static TCP tcp;
+    public static Dictionary<int, Packet> RecvingPackets = new Dictionary<int, Packet>();
 
-    void Start()
+    public static void PacketHandler(Packet packet, int id)
     {
-        packetHandlers = new Dictionary<byte, PacketHandler>()
+        switch (id)
         {
-            { 1, Handle.OnConnect },
-            { 11, Handle.BackendLogin }
-        };
+            case 1: Handle.OnConnect(packet); break; // OnConnect
+
+            case 100: Handle.BackendLogin(packet); break; // Backend Login
+            case 101: Handle.BackendPreview(packet); break; // Backend Preview
+        }
     }
 
     #region Connecting
 
-    public static void Connect(string ip, int port, string password)
+    public static void Connect(string ip, int port)
     {
         tcp = new TCP();
-        tcp.Connect(ip, port);
+        tcp.Connect("127.0.0.1", 26951);
 
-        instance.StartCoroutine(IConnect("PragmaticMilan85$"));
+        instance.StartCoroutine(IConnect());
     }
 
-    static IEnumerator IConnect(string password)
+    static IEnumerator IConnect()
     {
         yield return new WaitForSeconds(0.5f);
-        Send.BackendLogin(password);
+        Send.BackendLogin();
     }
 
     #endregion
@@ -60,47 +59,49 @@ public class DataManager : MonoBehaviour
         {
             socket = new TcpClient
             {
-                ReceiveBufferSize = 4096,
+                ReceiveBufferSize = 16384,
                 SendBufferSize = 4096
             };
 
-            receiveBuffer = new byte[4096];
+            receiveBuffer = new byte[16384];
             socket.BeginConnect(ip, port, ConnectCallback, socket);
         }
 
-        void ConnectCallback(IAsyncResult _result)
+        void ConnectCallback(IAsyncResult result)
         {
-            socket.EndConnect(_result);
+            socket.EndConnect(result);
             if (!socket.Connected) { return; }
 
             stream = socket.GetStream();
-            stream.BeginRead(receiveBuffer, 0, 4096, ReceiveCallback, null);
+            stream.BeginRead(receiveBuffer, 0, 16384, ReceiveCallback, null);
 
             receivedData = new Packet();
         }
 
-        public void SendData(Packet _packet)
+        public void SendData(byte[] data)
         {
             try
             {
                 if (socket != null)
-                    stream.BeginWrite(_packet.ToArray(), 0, _packet.Length(), null, null);
+                {
+                    stream.BeginWrite(data, 0, data.Length, null, null);
+                }
             }
             catch { }
         }
 
-        void ReceiveCallback(IAsyncResult _result)
+        void ReceiveCallback(IAsyncResult result)
         {
             try
             {
-                int _byteLength = stream.EndRead(_result);
-                if (_byteLength <= 0) { Disconnect(); return; }
+                int byteLength = stream.EndRead(result);
+                if (byteLength <= 0) { Disconnect(); return; }
 
-                byte[] _data = new byte[_byteLength];
-                Array.Copy(receiveBuffer, _data, _byteLength);
+                byte[] data = new byte[byteLength];
+                Array.Copy(receiveBuffer, data, byteLength);
 
-                receivedData.Reset(HandleData(_data));
-                stream.BeginRead(receiveBuffer, 0, 4096, ReceiveCallback, null);
+                receivedData.Reset(HandleData(data));
+                stream.BeginRead(receiveBuffer, 0, 16384, ReceiveCallback, null);
             }
             catch
             {
@@ -108,15 +109,24 @@ public class DataManager : MonoBehaviour
             }
         }
 
-        private bool HandleData(byte[] _data)
+        private bool HandleData(byte[] data)
         {
             ThreadedDataRequester.ExecuteOnMainThread(() =>
             {
-                using (Packet _packet = new Packet())
+                int id = BitConverter.ToInt32(data, 0);
+                bool singular = BitConverter.ToBoolean(data, 4);
+
+                if (RecvingPackets.ContainsKey(id))
                 {
-                    _packet.SetBytes(_data);
-                    byte _packetId = _packet.ReadByte();
-                    if (_packetId != 0) { print(_packetId); packetHandlers[_packetId](_packet); }
+                    RecvingPackets[id].AddChunk(data, PacketHandler);
+                }
+                else if (singular)
+                {
+                    Packet packet = new Packet(data, PacketHandler);
+                }
+                else
+                {
+                    RecvingPackets.Add(id, new Packet(data, PacketHandler));
                 }
             });
 

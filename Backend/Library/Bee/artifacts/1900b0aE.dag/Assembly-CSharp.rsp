@@ -366,9 +366,7 @@
 "Assets/LeanTween/Framework/LTDescr.cs"
 "Assets/LeanTween/Framework/LTDescrOptional.cs"
 "Assets/LeanTween/Framework/LTSeq.cs"
-"Assets/Scriptable Objects/Scripts/GenerationSettings.cs"
-"Assets/Scriptable Objects/Scripts/PropClass.cs"
-"Assets/Scriptable Objects/Scripts/UpdatableData.cs"
+"Assets/Scriptable Objects/PropDataObject.cs"
 "Assets/Scripts/GenerateData.cs"
 "Assets/Scripts/Managers/DataManager.cs"
 "Assets/Scripts/Managers/MenuManager.cs"
@@ -376,14 +374,16 @@
 "Assets/Scripts/Map Generation/Noise.cs"
 "Assets/Scripts/Map Generation/TerrainChunk.cs"
 "Assets/Scripts/Map Generation/ThreadedDataRequester.cs"
-"Assets/Scripts/MapPreview.cs"
+"Assets/Scripts/Map Previewing/MapPreview.cs"
+"Assets/Scripts/Map Previewing/MapPreviewUI.cs"
 "Assets/Scripts/Networking/Handle.cs"
 "Assets/Scripts/Networking/Packet.cs"
 "Assets/Scripts/Networking/Send.cs"
 "Assets/Scripts/SaveFile.cs"
+"Assets/Scripts/Scene Scripts/CameraController.cs"
 "Assets/Scripts/UI/TextArea.cs"
 -langversion:8.0
-
+/unsafe+
 /deterministic
 /optimize+
 /debug:portable

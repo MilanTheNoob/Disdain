@@ -7,25 +7,29 @@ public class TerrainChunk
 
     public GameObject ChunkObject;
     public GameObject StorageParents;
-    public GameObject[] PropParents;
+    public GameObject PropParents;
 
     public MeshRenderer MeshR;
     public MeshFilter MeshF;
 
-    public TerrainChunk(SaveFile.ChunkClass chunkData, GenerationSettings gs, Transform parent, Material material)
+    public TerrainChunk(SaveFile.ChunkClass chunkData, Transform parent, 
+        Material material, PropDataObject[] objectDict)
     {
-        SampleCenter = chunkData.Coord * gs.MeshSetting.meshWorldSize / gs.MeshSetting.meshScale;
-        Vector3 position = chunkData.Coord * gs.MeshSetting.meshWorldSize;
+        SampleCenter = chunkData.Coord * 64;
 
-        ChunkObject = new GameObject("Terrain Chunk " + position.x + "-" + position.y);
+        ChunkObject = new GameObject("Terrain Chunk " + SampleCenter.x + "-" + SampleCenter.y);
         MeshR = ChunkObject.AddComponent<MeshRenderer>();
         MeshF = ChunkObject.AddComponent<MeshFilter>();
 
         MeshR.material = material;
 
-        ChunkObject.transform.position = new Vector3(position.x, 0, position.y);
         ChunkObject.transform.parent = parent;
+        ChunkObject.transform.localPosition = new Vector3(SampleCenter.x, 0, SampleCenter.y);
 
-        MeshF.mesh = Generation.GenerateTerrainMesh(chunkData.HeightMap, gs.MeshSetting, 0);
+        PropParents = new GameObject("Props Parent");
+        PropParents.transform.parent = ChunkObject.transform;
+
+        MeshF.mesh = Generation.GenerateTerrainMesh(chunkData.HeightMap);
+        Generation.GenerateProps(chunkData.Props, objectDict, PropParents);
     }
 }

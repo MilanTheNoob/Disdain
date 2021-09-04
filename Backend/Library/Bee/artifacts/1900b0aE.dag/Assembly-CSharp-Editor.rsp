@@ -347,7 +347,7 @@
 "Assets/Editor/LobbyGenerationWindow.cs"
 "Assets/LeanTween/Editor/LeanTweenDocumentationEditor.cs"
 -langversion:8.0
-
+/unsafe+
 /deterministic
 /optimize+
 /debug:portable

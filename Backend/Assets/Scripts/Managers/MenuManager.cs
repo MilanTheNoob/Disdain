@@ -82,5 +82,5 @@ public class MenuManager : MonoBehaviour
         FadingPanel.gameObject.SetActive(false);
     }
 
-    void Login() { DataManager.Connect(IP.text, int.Parse(Port.text), Password.text); }
+    void Login() { DataManager.Connect(IP.text, 26951); }
 }

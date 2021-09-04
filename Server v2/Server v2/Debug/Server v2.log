@@ -1,0 +1,77 @@
+﻿  server.cpp
+C:\Users\Milan\Desktop\LATEST-Disdain\Server v2\Server v2\generate_data.h(65,21): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Milan\Desktop\LATEST-Disdain\Server v2\Server v2\generate_data.h(69,22): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Milan\Desktop\LATEST-Disdain\Server v2\Server v2\generate_data.h(223,49): warning C4244: 'argument': conversion from 'float' to 'uint8_t', possible loss of data
+C:\Users\Milan\Desktop\LATEST-Disdain\Server v2\Server v2\generate_data.h(235,1): warning C4267: 'argument': conversion from 'size_t' to 'uint8_t', possible loss of data
+C:\Users\Milan\Desktop\LATEST-Disdain\Server v2\Server v2\heightmap_gen.h(25,80): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\Milan\Desktop\LATEST-Disdain\Server v2\Server v2\heightmap_gen.h(25,59): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\Milan\Desktop\LATEST-Disdain\Server v2\Server v2\heightmap_gen.h(42,23): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Milan\Desktop\LATEST-Disdain\Server v2\Server v2\heightmap_gen.h(45,54): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\Milan\Desktop\LATEST-Disdain\Server v2\Server v2\heightmap_gen.h(45,33): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\Milan\Desktop\LATEST-Disdain\Server v2\Server v2\heightmap_gen.h(56,25): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Milan\Desktop\LATEST-Disdain\Server v2\Server v2\heightmap_gen.h(59,56): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\Milan\Desktop\LATEST-Disdain\Server v2\Server v2\heightmap_gen.h(59,35): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\Milan\Desktop\LATEST-Disdain\Server v2\Server v2\heightmap_gen.h(61,70): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\Milan\Desktop\LATEST-Disdain\Server v2\Server v2\heightmap_gen.h(61,64): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\Milan\Desktop\LATEST-Disdain\Server v2\Server v2\prop_gen.h(41,50): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\Milan\Desktop\LATEST-Disdain\Server v2\Server v2\prop_gen.h(41,29): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\Milan\Desktop\LATEST-Disdain\Server v2\Server v2\prop_gen.h(42,50): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\Milan\Desktop\LATEST-Disdain\Server v2\Server v2\prop_gen.h(42,29): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\Milan\Desktop\LATEST-Disdain\Server v2\Server v2\prop_gen.h(43,50): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\Milan\Desktop\LATEST-Disdain\Server v2\Server v2\prop_gen.h(43,29): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\Milan\Desktop\LATEST-Disdain\Server v2\Server v2\prop_gen.h(45,64): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\Milan\Desktop\LATEST-Disdain\Server v2\Server v2\prop_gen.h(45,42): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\Milan\Desktop\LATEST-Disdain\Server v2\Server v2\prop_gen.h(53,20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Milan\Desktop\LATEST-Disdain\Server v2\Server v2\prop_gen.h(76,21): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Milan\Desktop\LATEST-Disdain\Server v2\Server v2\prop_gen.h(90,14): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+C:\Users\Milan\Desktop\LATEST-Disdain\Server v2\Server v2\prop_gen.h(92,15): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+C:\Users\Milan\Desktop\LATEST-Disdain\Server v2\Server v2\prop_gen.h(101,24): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\Milan\Desktop\LATEST-Disdain\Server v2\Server v2\prop_gen.h(101,17): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\Milan\Desktop\LATEST-Disdain\Server v2\Server v2\prop_gen.h(115,20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Milan\Desktop\LATEST-Disdain\Server v2\Server v2\prop_gen.h(117,47): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\Milan\Desktop\LATEST-Disdain\Server v2\Server v2\prop_gen.h(117,42): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\Milan\Desktop\LATEST-Disdain\Server v2\Server v2\prop_gen.h(120,60): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\Milan\Desktop\LATEST-Disdain\Server v2\Server v2\prop_gen.h(120,53): warning C4244: 'argument': conversion from 'unsigned int' to 'float', possible loss of data
+C:\Users\Milan\Desktop\LATEST-Disdain\Server v2\Server v2\prop_gen.h(123,22): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Milan\Desktop\LATEST-Disdain\Server v2\Server v2\prop_gen.h(132,16): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+C:\Users\Milan\Desktop\LATEST-Disdain\Server v2\Server v2\prop_gen.h(134,86): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\Milan\Desktop\LATEST-Disdain\Server v2\Server v2\prop_gen.h(134,62): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\Milan\Desktop\LATEST-Disdain\Server v2\Server v2\prop_gen.h(142,16): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+C:\Users\Milan\Desktop\LATEST-Disdain\Server v2\Server v2\prop_gen.h(144,86): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\Milan\Desktop\LATEST-Disdain\Server v2\Server v2\prop_gen.h(144,62): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\Milan\Desktop\LATEST-Disdain\Server v2\Server v2\prop_gen.h(153,69): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\Milan\Desktop\LATEST-Disdain\Server v2\Server v2\prop_gen.h(153,60): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\Milan\Desktop\LATEST-Disdain\Server v2\Server v2\prop_gen.h(158,21): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+C:\Users\Milan\Desktop\LATEST-Disdain\Server v2\Server v2\prop_gen.h(160,22): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+C:\Users\Milan\Desktop\LATEST-Disdain\Server v2\Server v2\chunk_data.h(83,1): warning C4267: 'argument': conversion from 'size_t' to 'uint16_t', possible loss of data
+C:\Users\Milan\Desktop\LATEST-Disdain\Server v2\Server v2\chunk_data.h(84,21): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Milan\Desktop\LATEST-Disdain\Server v2\Server v2\chunk_data.h(121,40): warning C4267: 'argument': conversion from 'size_t' to 'uint16_t', possible loss of data
+C:\Users\Milan\Desktop\LATEST-Disdain\Server v2\Server v2\chunk_data.h(122,20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Milan\Desktop\LATEST-Disdain\Server v2\Server v2\handle.h(105,20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Milan\Desktop\LATEST-Disdain\Server v2\Server v2\handle.h(256,21): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Milan\Desktop\LATEST-Disdain\Server v2\Server v2\handle.h(399,21): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Milan\Desktop\LATEST-Disdain\Server v2\Server v2\handle.h(471,21): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Milan\Desktop\LATEST-Disdain\Server v2\Server v2\handle.h(492,21): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Milan\Desktop\LATEST-Disdain\Server v2\Server v2\handle.h(610,21): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Milan\Desktop\LATEST-Disdain\Server v2\Server v2\socket_thread.h(35,12): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+C:\Users\Milan\Desktop\LATEST-Disdain\Server v2\Server v2\socket_thread.h(40,20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Milan\Desktop\LATEST-Disdain\Server v2\Server v2\socket_thread.h(66,22): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Milan\Desktop\LATEST-Disdain\Server v2\Server v2\socket_thread.h(78,21): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Milan\Desktop\LATEST-Disdain\Server v2\Server v2\socket_thread.h(92,23): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Milan\Desktop\LATEST-Disdain\Server v2\Server v2\socket_thread.h(101,24): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Milan\Desktop\LATEST-Disdain\Server v2\Server v2\socket_thread.h(108,24): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Milan\Desktop\LATEST-Disdain\Server v2\Server v2\socket_thread.h(136,23): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Milan\Desktop\LATEST-Disdain\Server v2\Server v2\socket_thread.h(170,20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Milan\Desktop\LATEST-Disdain\Server v2\Server v2\lobby_collisions.h(8,20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Milan\Desktop\LATEST-Disdain\Server v2\Server v2\lobby_collisions.h(22,14): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+C:\Users\Milan\Desktop\LATEST-Disdain\Server v2\Server v2\lobby_collisions.h(28,22): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Milan\Desktop\LATEST-Disdain\Server v2\Server v2\lobby_collisions.h(48,24): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+C:\Users\Milan\Desktop\LATEST-Disdain\Server v2\Server v2\lobby_collisions.h(49,24): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+C:\Users\Milan\Desktop\LATEST-Disdain\Server v2\Server v2\lobby_collisions.h(55,23): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Milan\Desktop\LATEST-Disdain\Server v2\Server v2\lobby_collisions.h(126,20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Milan\Desktop\LATEST-Disdain\Server v2\Server v2\lobby_collisions.h(149,23): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Milan\Desktop\LATEST-Disdain\Server v2\Server v2\server.cpp(34,1): warning C4326: return type of 'main' should be 'int' instead of 'void'
+C:\Users\Milan\Desktop\LATEST-Disdain\Server v2\Server v2\server.cpp(37,12): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+C:\Users\Milan\Desktop\LATEST-Disdain\Server v2\Server v2\server.cpp(158,42): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Milan\Desktop\LATEST-Disdain\Server v2\Server v2\server.cpp(205,20): warning C4018: '<': signed/unsigned mismatch
+  Server v2.vcxproj -> C:\Users\Milan\Desktop\LATEST-Disdain\Server v2\Debug\Server v2.exe

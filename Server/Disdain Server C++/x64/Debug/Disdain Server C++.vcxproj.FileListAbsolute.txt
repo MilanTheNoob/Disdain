@@ -1,2 +1,1 @@
-C:\Users\milan\Documents\GitHub\LATEST-Disdain\Project Files\Disdain Server C++\Disdain Server C++\x64\Debug\Disdain Server C++.vcxproj.CopyComplete
 C:\Users\Milan\Desktop\LATEST-Disdain\Server\Disdain Server C++\x64\Debug\Disdain Server C++.vcxproj.CopyComplete
